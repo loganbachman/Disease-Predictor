@@ -38,6 +38,7 @@ def main():
     disease_counts = y_sample.value_counts()
     valid_diseases = disease_counts[disease_counts >= 10].index
     valid = y_sample.isin(valid_diseases)
+    
     # assign X and y to filtered diseases
     X_sample = X_sample[valid]
     y_sample = y_sample[valid]
@@ -52,9 +53,10 @@ def main():
 
 
 
-
-
+    # Assign model to random forest with 100 trees
     model = RandomForestClassifier(n_estimators=100)
+    
+    # Cross-fold validation and score
     kf = KFold(n_splits=4)
     cv_scores = cross_val_score(model, X_train, y_train, cv=kf, scoring="accuracy")
     print("Cross validation score:", cv_scores)
