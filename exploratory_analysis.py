@@ -74,7 +74,7 @@ def main():
     print("Best parameters:", grid.best_params_)
     print(f"Tuned mean accuracy: {grid.best_score_:.3f}")
     #Best parameters: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'n_estimators': 200}
-    #Tuned mean accuracy: ~82.5%
+    #The tuned mean accuracy: ~82.5%
     
     
   
