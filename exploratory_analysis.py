@@ -4,14 +4,17 @@ import os
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import KFold, cross_val_score, train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from kaggle.api.kaggle_api_extended import KaggleApi #type: ignore
+from kaggle.api.kaggle_api_extended import KaggleApi
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-import seaborn as sns #type: ignore
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split
+from sklearn.preprocessing import StandardScaler
+from numpy.typing import NDArray
 
 api = KaggleApi()
 api.authenticate()
+
 
 def main():
     api.dataset_download_files('dhivyeshrk/diseases-and-symptoms-dataset', unzip=True)
@@ -45,22 +48,33 @@ def main():
     
     # Split sample into training and testing set (80 / 20)
     X_train, X_test, y_train, y_test = train_test_split(X_sample, y_sample, random_state=42, test_size=0.20)
-    
-    # Hyperparameter Tuning 
-    # def tune_model (X_train, y_train)
-     #   param_grid 
-
 
 
 
     # Assign model to random forest with 100 trees
-    model = RandomForestClassifier(n_estimators=100)
+    model = RandomForestClassifier(random_state=42)
+    # Potential best hyperparameter combinations
+    params = {
+        "n_estimators": [100, 200],
+        "max_depth": [None, 20],
+        "max_features": ["sqrt", None],
+        "max_leaf_nodes": [None, 8]
+    }
     
-    # Cross-fold validation and score
-    kf = KFold(n_splits=4)
-    cv_scores = cross_val_score(model, X_train, y_train, cv=kf, scoring="accuracy")
-    print("Cross validation score:", cv_scores)
-    print(f"Mean validation score: {np.mean(cv_scores):.4f}")
+    
+    # Cross-fold validation and get our default score (without parameter tuning)
+    # ~81.5% accuracy
+    base_scores = cross_val_score(model, X_train, y_train, cv=4, scoring="accuracy")
+    print("Cross validation score:", base_scores)
+    print(f"Mean validation score: {np.mean(base_scores):.4f}")
+    
+    # Use GridSearchCV to find the best hyperparameter combinations
+    grid = GridSearchCV(model, params, cv=4, scoring="accuracy", n_jobs=-1, verbose=2)
+    grid.fit(X_train, y_train)
+    print("Best parameters:", grid.best_params_)
+    print(f"Tuned mean accuracy: {grid.best_score_:.3f}")
+    #Best parameters: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'n_estimators': 200}
+    #Tuned mean accuracy: ~82.5%
     
     
   
