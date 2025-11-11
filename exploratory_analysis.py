@@ -11,12 +11,22 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split
 from sklearn.preprocessing import StandardScaler
 from numpy.typing import NDArray
+from sklearn.linear_model import LogisticRegression
 
 api = KaggleApi()
 api.authenticate()
 
+def feature_engineering(X: pd.DataFrame) -> pd.DataFrame:
+    # Number of symptoms
+    symptom_cols = X.columns.tolist()
+    X['symptom_count'] = X[symptom_cols].sum(axis=1)
+    
+    # Is it a sparse case?
+    X['is_sparse'] = (X['symptom_count'] <= 2).astype(int)
+    
+    return X
 
-def main():
+def load_dataset():
     api.dataset_download_files('dhivyeshrk/diseases-and-symptoms-dataset', unzip=True)
     csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
     dataset = pd.read_csv('Final_Augmented_dataset_Diseases_and_Symptoms.csv')
@@ -35,7 +45,7 @@ def main():
     y = y[valid_mask]
     
     # Take a stratified sample of 25K from dataset
-    X_sample, _, y_sample, _ = train_test_split(X, y, train_size=25000, stratify=y, random_state=42)
+    X_sample, _, y_sample, _ = train_test_split(X, y, train_size=50000, stratify=y, random_state=42)
     
     # filter out diseases that dont appear at least 5 times
     disease_counts = y_sample.value_counts()
@@ -45,13 +55,18 @@ def main():
     # assign X and y to filtered diseases
     X_sample = X_sample[valid]
     y_sample = y_sample[valid]
+    return X_sample, y_sample
+
+
+def main():
+    X, y = load_dataset()
     
     # Split sample into training and testing set (80 / 20)
-    X_train, X_test, y_train, y_test = train_test_split(X_sample, y_sample, random_state=42, test_size=0.20)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size=0.20)
 
 
 
-    # Assign model to random forest with 100 trees
+    # Assign model to random forest
     model = RandomForestClassifier(random_state=42)
     # Potential best hyperparameter combinations
     params = {
@@ -61,20 +76,36 @@ def main():
         "max_leaf_nodes": [None, 8]
     }
     
+    # Logistic Regression model
+    model2 = LogisticRegression()
     
-    # Cross-fold validation and get our default score (without parameter tuning)
+    # Potential best hyperparameter combinations
+    params2 = {
+        "C": [0.1, 1.0, 10.0],
+        "solver": ["lbfgs", "newton-cg"],
+        "max_iter": [100, 200],
+    }
+    
+    # Cross-fold validation and get our default score for randomforest (without parameter tuning)
     # ~81.5% accuracy
-    base_scores = cross_val_score(model, X_train, y_train, cv=4, scoring="accuracy")
-    print("Cross validation score:", base_scores)
-    print(f"Mean validation score: {np.mean(base_scores):.4f}")
+    #base_scores = cross_val_score(model, X_train, y_train, cv=4, scoring="accuracy")
+    #print("Cross validation score:", base_scores)
+    #print(f"Mean validation score: {np.mean(base_scores):.4f}")
     
-    # Use GridSearchCV to find the best hyperparameter combinations
-    grid = GridSearchCV(model, params, cv=4, scoring="accuracy", n_jobs=-1, verbose=2)
+    # Do the same but for logistic regression without parameter tuning
+    # ~82.5% accuracy (better than random forest)
+    base_scores2 = cross_val_score(model2, X_train, y_train, cv=4, scoring="accuracy")
+    print("Cross validation score:", base_scores2)
+    print(f"Mean validation score: {np.mean(base_scores2):.4f}")
+    
+    
+    # Use GridSearchCV to find best hyperparameter combinations for chosen model (Logistic Regressin)
+    grid = GridSearchCV(model2, params2, cv=4, scoring="accuracy", n_jobs=-1, verbose=2)
     grid.fit(X_train, y_train)
     print("Best parameters:", grid.best_params_)
     print(f"Tuned mean accuracy: {grid.best_score_:.3f}")
-    #Best parameters: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'n_estimators': 200}
-    #The tuned mean accuracy: ~82.5%
+    # Best parameters: {'C': 1.0, 'max_iter': 100, 'solver': 'lbfgs'}
+    # The tuned mean accuracy: ~85%
     
     
   
