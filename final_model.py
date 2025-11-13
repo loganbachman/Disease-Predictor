@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import os
+from scipy.stats import randint, uniform
 from sklearn.model_selection import KFold, cross_val_score, train_test_split
 from kaggle.api.kaggle_api_extended import KaggleApi
 from sklearn.model_selection import train_test_split
@@ -10,24 +11,10 @@ from sklearn.model_selection import (
     cross_val_score, 
     train_test_split
 )
-from exploratory_analysis import feature_engineering, load_dataset
+from exploratory_analysis import load_dataset
 from numpy.typing import NDArray
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-
-
-def transform_data(
-    X_train: pd.DataFrame, X_test: pd.DataFrame
-) -> tuple[NDArray, NDArray]:
-    
-    # Feature engineer both train and test sets
-    X_train_engineered = feature_engineering(X_train.copy())
-    X_test_engineeered = feature_engineering(X_test.copy())
-    
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train_engineered)
-    X_test_scaled = scaler.transform(X_test_engineered)
-    return X_train_scaled, X_test_scaled
 
 def main() -> None:
     X, y = load_dataset()
@@ -38,42 +25,39 @@ def main() -> None:
     print(f"Training set: {X_train.shape[0]} samples")
     print(f"Test set: {X_test.shape[0]} samples")
     
-    # Apply feature engineering and scale features
-    X_train_scaled, X_test_scaled = transform_data(X_train, X_test)
-    
     # Create logistic regression model (default params)
     baseline_model = LogisticRegression(random_state=42)
     
     # 4 fold cross validation to evaluate baseline performance
     baseline_scores = cross_val_score(
-        baseline_model, X_train_scaled, y_train, cv=4, scoring="accuracy", n_jobs=-1
+        baseline_model, X_train, y_train, cv=4, scoring="accuracy", n_jobs=-1
     )
     baseline_mean = baseline_scores.mean()
     baseline_std = baseline_scores.std()
     print(f"Baseline accuracy: {baseline_mean:.4f} (+/- {baseline_std * 2:.4f})")
     
     # Grid for testing hyperparameters
+    # Narrowed down to best params from original parameters after first tests
     grid_param_grid = {
-        "C": [0.1, 1.0, 10.0],
+        "C": [1.0, 10.0],
         "solver": ["lbfgs"],
-        "max_iter": [100, 200],
+        "max_iter": [50, 100, 150],
     }
-    # Create logistic regression model, ensure fixed random state
+    # Create logistic regression model, ensure a fixed random state
     model = LogisticRegression(random_state=42)
     
     # Perform GridSearch CV
     grid_search = GridSearchCV(
         model,
-        grid_param_grid,
-        cv=4,
-        scoring="accuracy",
-        n_jobs=-1,
-        verbose=1
+         grid_param_grid,
+         cv=4,
+         scoring="accuracy",
+         n_jobs=-1,
+         verbose=2
     )
     
     # Fit grid search on the training data
-    print("Starting GridSearchCV...")
-    grid_search.fit(X_train_scaled, y_train)
+    grid_search.fit(X_train, y_train)
     # Print best parameters, and accuracy, as well as improvement
     print("GridSearchCV completed!")
     print(f"Best parameters: {grid_search.best_params_}")
@@ -81,9 +65,49 @@ def main() -> None:
     print(f"Improvement over baseline: {grid_search.best_score_ - baseline_mean:.4f}")
     
     # Parameter distributions for RandomizedSearchCV
+    # Narrowed down to best params from original parameters after first tests
     random_param = {
-        
+        "max_iter": randint(50, 200),
+        "C": uniform(0.01, 10),
+        "solver": ["lbfgs"],
     }
+    
+    # New model fr testing randomized search, ensures both start from same baseline
+    model_random = LogisticRegression(random_state=42)
+    
+    # Test 40 random parameter combinations
+    random_search = RandomizedSearchCV(
+        model_random,
+        random_param,
+        n_iter=20,
+        cv=4,
+        scoring="accuracy",
+        random_state=42,
+        n_jobs=-1,
+        verbose=2
+    )
+    
+    # Fit the randomized search on training data
+    random_search.fit(X_train, y_train)
+    print("RandomizedSearchCV completed!")
+    print(f"Best parameters: {random_search.best_params_}")
+    print(f"Best cross-validation accuracy: {random_search.best_score_:.4f}")
+    print(f"Improvement over baseline: {random_search.best_score_ - baseline_mean:.4f}")
+    
+    # Best results from all search methods
+    print(f"Baseline accuracy:           {baseline_mean:.4f}")
+    print(f"GridSearchCV best accuracy:  {grid_search.best_score_:.4f}")
+    print(f"RandomizedSearchCV accuracy: {random_search.best_score_:.4f}")
+
+    # Baseline had almost identical score
+    baseline_model.fit(X_train, y_train)
+    test_accuracy = baseline_model.score(X_test, y_test)
+    print(f"\nTest set accuracy: {test_accuracy:.4f}")
+    
+    
+
+if __name__ == "__main__":
+    main()
     
     
     
