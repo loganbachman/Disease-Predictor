@@ -16,16 +16,6 @@ from sklearn.linear_model import LogisticRegression
 api = KaggleApi()
 api.authenticate()
 
-def feature_engineering(X: pd.DataFrame) -> pd.DataFrame:
-    # Number of symptoms
-    symptom_cols = X.columns.tolist()
-    X['symptom_count'] = X[symptom_cols].sum(axis=1)
-    
-    # Is it a sparse case?
-    X['is_sparse'] = (X['symptom_count'] <= 2).astype(int)
-    
-    return X
-
 def load_dataset():
     api.dataset_download_files('dhivyeshrk/diseases-and-symptoms-dataset', unzip=True)
     csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
@@ -87,13 +77,13 @@ def main():
     }
     
     # Cross-fold validation and get our default score for randomforest (without parameter tuning)
-    # ~81.5% accuracy
+    # ~82% accuracy
     #base_scores = cross_val_score(model, X_train, y_train, cv=4, scoring="accuracy")
     #print("Cross validation score:", base_scores)
     #print(f"Mean validation score: {np.mean(base_scores):.4f}")
     
     # Do the same but for logistic regression without parameter tuning
-    # ~82.5% accuracy (better than random forest)
+    # ~85-86% accuracy (better than random forest)
     base_scores2 = cross_val_score(model2, X_train, y_train, cv=4, scoring="accuracy")
     print("Cross validation score:", base_scores2)
     print(f"Mean validation score: {np.mean(base_scores2):.4f}")
@@ -105,7 +95,7 @@ def main():
     print("Best parameters:", grid.best_params_)
     print(f"Tuned mean accuracy: {grid.best_score_:.3f}")
     # Best parameters: {'C': 1.0, 'max_iter': 100, 'solver': 'lbfgs'}
-    # The tuned mean accuracy: ~85%
+    # The tuned mean accuracy: ~86%
     
     
   
