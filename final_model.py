@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 import os
+import joblib
 from scipy.stats import randint, uniform
-from sklearn.model_selection import KFold, cross_val_score, train_test_split
-from kaggle.api.kaggle_api_extended import KaggleApi
+from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import (
     GridSearchCV, 
@@ -12,12 +12,10 @@ from sklearn.model_selection import (
     train_test_split
 )
 from exploratory_analysis import load_dataset
-from numpy.typing import NDArray
-from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 
 def main() -> None:
-    X, y = load_dataset()
+    X, y = load_dataset(use_full_data=False)
     
     # Split into test and training
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size=0.20)
@@ -103,7 +101,6 @@ def main() -> None:
     baseline_model.fit(X_train, y_train)
     test_accuracy = baseline_model.score(X_test, y_test)
     print(f"\nTest set accuracy: {test_accuracy:.4f}")
-    
     
 
 if __name__ == "__main__":

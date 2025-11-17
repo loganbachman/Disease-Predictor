@@ -13,39 +13,47 @@ from sklearn.preprocessing import StandardScaler
 from numpy.typing import NDArray
 from sklearn.linear_model import LogisticRegression
 
-api = KaggleApi()
-api.authenticate()
-
-def load_dataset():
-    api.dataset_download_files('dhivyeshrk/diseases-and-symptoms-dataset', unzip=True)
-    csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
+def load_dataset(data_path='data/raw', use_full_data=True):
+    # Create path for data
+    os.makedirs(data_path, exist_ok=True)
+    csv_path = os.path.join(data_path, 'Final_Augmented_dataset_Diseases_and_Symptoms.csv')
+    # if data doesn't exist, call Kaggle Api to load
+    if not os.path.exists(csv_path):
+        print("Downloading kaggle dataset...")
+        api = KaggleApi()
+        api.authenticate()
+        api.dataset_download_files(
+            'dhivyeshrk/diseases-and-symptoms-dataset',
+            path=data_path,
+            unzip=True
+        )
+    
     dataset = pd.read_csv('Final_Augmented_dataset_Diseases_and_Symptoms.csv')
     dataset.dropna(inplace=True)
-    
     # X (features) is all columns (symptoms) except first (diseases)
     X = dataset.drop('diseases', axis=1)
     # y (target) is the resulting disease, what we are trying to predict
     y = dataset['diseases']
     
-    # filter out diseases that dont appear at least 2 times so we can stratify
+    # filter out diseases that dont appear at least 10 times
     disease_counts = y.value_counts()
-    valid_diseases = disease_counts[disease_counts >= 2].index
+    valid_diseases = disease_counts[disease_counts >= 10].index
     valid_mask = y.isin(valid_diseases)
     X = X[valid_mask]
     y = y[valid_mask]
     
-    # Take a stratified sample of 25K from dataset
-    X_sample, _, y_sample, _ = train_test_split(X, y, train_size=50000, stratify=y, random_state=42)
+    # if NOT using full dataset
+    if not use_full_data:
+        # Take a stratified sample of 50K from dataset
+        X, _, y, _ = train_test_split(
+            X, y,
+            train_size=50000, 
+            stratify=y, 
+            random_state=42
+        )
+        
     
-    # filter out diseases that dont appear at least 5 times
-    disease_counts = y_sample.value_counts()
-    valid_diseases = disease_counts[disease_counts >= 10].index
-    valid = y_sample.isin(valid_diseases)
-    
-    # assign X and y to filtered diseases
-    X_sample = X_sample[valid]
-    y_sample = y_sample[valid]
-    return X_sample, y_sample
+    return X, y
 
 
 def main():
