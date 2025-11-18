@@ -1,0 +1,3367 @@
+{
+    "panic_disorder": {
+      "name": "Panic Disorder",
+      "description": "Mental health condition characterized by recurrent, unexpected panic attacks with intense fear and physical symptoms",
+      "severity": "moderate"
+    },
+    "vocal_cord_polyp": {
+      "name": "Vocal Cord Polyp",
+      "description": "Medical condition affecting the vocal cord polyp",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_ethylene_glycol": {
+      "name": "Poisoning Due To Ethylene Glycol",
+      "description": "Toxic exposure causing harmful effects on the body",
+      "severity": "severe"
+    },
+    "atrophic_vaginitis": {
+      "name": "Atrophic Vaginitis",
+      "description": "Vaginal inflammation from decreased estrogen",
+      "severity": "moderate"
+    },
+    "fracture_of_the_hand": {
+      "name": "Fracture Of The Hand",
+      "description": "Broken bone in the hand",
+      "severity": "moderate"
+    },
+    "cellulitis_or_abscess_of_mouth": {
+      "name": "Cellulitis Or Abscess Of Mouth",
+      "description": "Bacterial infection in mouth",
+      "severity": "moderate"
+    },
+    "eye_alignment_disorder": {
+      "name": "Eye Alignment Disorder",
+      "description": "Eyes don't align properly",
+      "severity": "moderate"
+    },
+    "headache_after_lumbar_puncture": {
+      "name": "Headache After Lumbar Puncture",
+      "description": "Post-procedural headache from spinal tap",
+      "severity": "moderate"
+    },
+    "pyloric_stenosis": {
+      "name": "Pyloric Stenosis",
+      "description": "Narrowing of stomach outlet in infants",
+      "severity": "moderate"
+    },
+    "salivary_gland_disorder": {
+      "name": "Salivary Gland Disorder",
+      "description": "Conditions affecting salivary glands",
+      "severity": "moderate"
+    },
+    "osteochondrosis": {
+      "name": "Osteochondrosis",
+      "description": "Disorder affecting bone growth in children",
+      "severity": "moderate"
+    },
+    "injury_to_the_knee": {
+      "name": "Injury To The Knee",
+      "description": "Trauma to the knee joint or surrounding structures",
+      "severity": "moderate"
+    },
+    "metabolic_disorder": {
+      "name": "Metabolic Disorder",
+      "description": "Conditions affecting the body's metabolism",
+      "severity": "moderate"
+    },
+    "vaginitis": {
+      "name": "Vaginitis",
+      "description": "Inflammation of the vagina",
+      "severity": "moderate"
+    },
+    "sick_sinus_syndrome": {
+      "name": "Sick Sinus Syndrome",
+      "description": "Malfunction of the heart's natural pacemaker",
+      "severity": "moderate"
+    },
+    "tinnitus_of_unknown_cause": {
+      "name": "Tinnitus Of Unknown Cause",
+      "description": "Ringing in ears without known cause",
+      "severity": "moderate"
+    },
+    "glaucoma": {
+      "name": "Glaucoma",
+      "description": "Eye disease with optic nerve damage from pressure",
+      "severity": "severe"
+    },
+    "eating_disorder": {
+      "name": "Eating Disorder",
+      "description": "Mental health conditions involving abnormal eating habits that negatively affect physical and mental health",
+      "severity": "moderate"
+    },
+    "transient_ischemic_attack": {
+      "name": "Transient Ischemic Attack",
+      "description": "Temporary blockage of blood flow to the brain causing stroke-like symptoms that resolve quickly",
+      "severity": "severe"
+    },
+    "pyelonephritis": {
+      "name": "Pyelonephritis",
+      "description": "Bacterial infection of the kidneys",
+      "severity": "moderate"
+    },
+    "rotator_cuff_injury": {
+      "name": "Rotator Cuff Injury",
+      "description": "Damage to muscles and tendons surrounding shoulder joint",
+      "severity": "moderate"
+    },
+    "chronic_pain_disorder": {
+      "name": "Chronic Pain Disorder",
+      "description": "Persistent pain lasting beyond normal healing time",
+      "severity": "moderate"
+    },
+    "problem_during_pregnancy": {
+      "name": "Problem During Pregnancy",
+      "description": "Complications during pregnancy",
+      "severity": "moderate"
+    },
+    "liver_cancer": {
+      "name": "Liver Cancer",
+      "description": "Malignant tumor in the liver",
+      "severity": "severe"
+    },
+    "atelectasis": {
+      "name": "Atelectasis",
+      "description": "Partial or complete collapse of a lung or section of a lung",
+      "severity": "moderate"
+    },
+    "injury_to_the_hand": {
+      "name": "Injury To The Hand",
+      "description": "Trauma to the hand",
+      "severity": "moderate"
+    },
+    "choledocholithiasis": {
+      "name": "Choledocholithiasis",
+      "description": "Gallstones in the bile duct",
+      "severity": "moderate"
+    },
+    "injury_to_the_hip": {
+      "name": "Injury To The Hip",
+      "description": "Trauma to the hip joint",
+      "severity": "moderate"
+    },
+    "cirrhosis": {
+      "name": "Cirrhosis",
+      "description": "Late-stage liver scarring caused by various liver diseases",
+      "severity": "moderate"
+    },
+    "thoracic_aortic_aneurysm": {
+      "name": "Thoracic Aortic Aneurysm",
+      "description": "Bulging or weakening of the aorta in the chest",
+      "severity": "severe"
+    },
+    "subdural_hemorrhage": {
+      "name": "Subdural Hemorrhage",
+      "description": "Bleeding between the brain and its outer covering",
+      "severity": "severe"
+    },
+    "diabetic_retinopathy": {
+      "name": "Diabetic Retinopathy",
+      "description": "Diabetes complication damaging retinal blood vessels",
+      "severity": "moderate"
+    },
+    "fibromyalgia": {
+      "name": "Fibromyalgia",
+      "description": "Disorder causing widespread musculoskeletal pain and fatigue",
+      "severity": "moderate"
+    },
+    "ischemia_of_the_bowel": {
+      "name": "Ischemia Of The Bowel",
+      "description": "Reduced blood flow to the intestines",
+      "severity": "moderate"
+    },
+    "peritonitis": {
+      "name": "Peritonitis",
+      "description": "Inflammation of the tissue lining the abdominal wall",
+      "severity": "moderate"
+    },
+    "injury_to_the_abdomen": {
+      "name": "Injury To The Abdomen",
+      "description": "Trauma to abdominal organs or structures",
+      "severity": "moderate"
+    },
+    "acute_pancreatitis": {
+      "name": "Acute Pancreatitis",
+      "description": "Sudden inflammation of the pancreas",
+      "severity": "severe"
+    },
+    "thrombophlebitis": {
+      "name": "Thrombophlebitis",
+      "description": "Inflammation of a vein with blood clot formation",
+      "severity": "moderate"
+    },
+    "asthma": {
+      "name": "Asthma",
+      "description": "Chronic respiratory condition causing inflammation and narrowing of airways, leading to wheezing and breathing difficulty",
+      "severity": "moderate"
+    },
+    "foreign_body_in_the_vagina": {
+      "name": "Foreign Body In The Vagina",
+      "description": "Object in vaginal canal",
+      "severity": "moderate"
+    },
+    "restless_leg_syndrome": {
+      "name": "Restless Leg Syndrome",
+      "description": "Condition causing uncomfortable sensations in legs and urge to move them",
+      "severity": "moderate"
+    },
+    "emphysema": {
+      "name": "Emphysema",
+      "description": "Lung disease causing damage to air sacs, resulting in shortness of breath and reduced oxygen intake",
+      "severity": "moderate"
+    },
+    "cysticercosis": {
+      "name": "Cysticercosis",
+      "description": "Parasitic infection from pork tapeworm larvae",
+      "severity": "moderate"
+    },
+    "induced_abortion": {
+      "name": "Induced Abortion",
+      "description": "Intentional termination of pregnancy",
+      "severity": "moderate"
+    },
+    "teething_syndrome": {
+      "name": "Teething Syndrome",
+      "description": "Symptoms in infants from tooth eruption",
+      "severity": "mild"
+    },
+    "infectious_gastroenteritis": {
+      "name": "Infectious Gastroenteritis",
+      "description": "Inflammation of the stomach and intestines caused by viral or bacterial infection",
+      "severity": "moderate"
+    },
+    "acute_sinusitis": {
+      "name": "Acute Sinusitis",
+      "description": "Short-term sinus inflammation",
+      "severity": "moderate"
+    },
+    "substancerelated_mental_disorder": {
+      "name": "Substance-Related Mental Disorder",
+      "description": "Mental health condition caused by the use or withdrawal from drugs or alcohol",
+      "severity": "moderate"
+    },
+    "postpartum_depression": {
+      "name": "Postpartum Depression",
+      "description": "Depression after childbirth",
+      "severity": "moderate"
+    },
+    "coronary_atherosclerosis": {
+      "name": "Coronary Atherosclerosis",
+      "description": "Buildup of plaque in the coronary arteries reducing blood flow to the heart",
+      "severity": "moderate"
+    },
+    "spondylitis": {
+      "name": "Spondylitis",
+      "description": "Inflammation of vertebrae in the spine",
+      "severity": "moderate"
+    },
+    "pituitary_adenoma": {
+      "name": "Pituitary Adenoma",
+      "description": "Benign tumor of the pituitary gland",
+      "severity": "moderate"
+    },
+    "uterine_fibroids": {
+      "name": "Uterine Fibroids",
+      "description": "Noncancerous growths in the uterus",
+      "severity": "moderate"
+    },
+    "idiopathic_nonmenstrual_bleeding": {
+      "name": "Idiopathic Nonmenstrual Bleeding",
+      "description": "Vaginal bleeding between periods without known cause",
+      "severity": "severe"
+    },
+    "chalazion": {
+      "name": "Chalazion",
+      "description": "Blocked oil gland in eyelid",
+      "severity": "mild"
+    },
+    "ovarian_torsion": {
+      "name": "Ovarian Torsion",
+      "description": "Twisting of ovary cutting off blood supply",
+      "severity": "severe"
+    },
+    "retinopathy_due_to_high_blood_pressure": {
+      "name": "Retinopathy Due To High Blood Pressure",
+      "description": "Retinal damage from hypertension",
+      "severity": "moderate"
+    },
+    "vaginal_yeast_infection": {
+      "name": "Vaginal Yeast Infection",
+      "description": "Fungal infection of the vagina",
+      "severity": "mild"
+    },
+    "mastoiditis": {
+      "name": "Mastoiditis",
+      "description": "Infection of mastoid bone behind ear",
+      "severity": "moderate"
+    },
+    "lung_contusion": {
+      "name": "Lung Contusion",
+      "description": "Bruising of lung tissue usually from blunt chest trauma",
+      "severity": "moderate"
+    },
+    "ingrown_toe_nail": {
+      "name": "Ingrown Toe Nail",
+      "description": "Toenail growing into surrounding skin",
+      "severity": "mild"
+    },
+    "pulmonary_eosinophilia": {
+      "name": "Pulmonary Eosinophilia",
+      "description": "Accumulation of eosinophils (white blood cells) in the lungs",
+      "severity": "moderate"
+    },
+    "corneal_disorder": {
+      "name": "Corneal Disorder",
+      "description": "Conditions affecting the cornea",
+      "severity": "moderate"
+    },
+    "foreign_body_in_the_gastrointestinal_tract": {
+      "name": "Foreign Body In The Gastrointestinal Tract",
+      "description": "Swallowed object in digestive system",
+      "severity": "moderate"
+    },
+    "endophthalmitis": {
+      "name": "Endophthalmitis",
+      "description": "Severe infection inside the eye",
+      "severity": "moderate"
+    },
+    "intestinal_malabsorption": {
+      "name": "Intestinal Malabsorption",
+      "description": "Difficulty absorbing nutrients from food in the intestines",
+      "severity": "moderate"
+    },
+    "viral_warts": {
+      "name": "Viral Warts",
+      "description": "Skin growths caused by virus",
+      "severity": "mild"
+    },
+    "hyperhidrosis": {
+      "name": "Hyperhidrosis",
+      "description": "Excessive sweating",
+      "severity": "moderate"
+    },
+    "stroke": {
+      "name": "Stroke",
+      "description": "Interruption of blood flow to the brain causing brain cell death and neurological damage",
+      "severity": "severe"
+    },
+    "pilonidal_cyst": {
+      "name": "Pilonidal Cyst",
+      "description": "Infected hair follicle near tailbone",
+      "severity": "moderate"
+    },
+    "crushing_injury": {
+      "name": "Crushing Injury",
+      "description": "Injury from compression force",
+      "severity": "moderate"
+    },
+    "normal_pressure_hydrocephalus": {
+      "name": "Normal Pressure Hydrocephalus",
+      "description": "Buildup of cerebrospinal fluid in brain cavities",
+      "severity": "moderate"
+    },
+    "alopecia": {
+      "name": "Alopecia",
+      "description": "Hair loss",
+      "severity": "moderate"
+    },
+    "flat_feet": {
+      "name": "Flat Feet",
+      "description": "Condition where foot arches are collapsed",
+      "severity": "mild"
+    },
+    "nonalcoholic_liver_disease": {
+      "name": "Nonalcoholic Liver Disease (Nash)",
+      "description": "Liver inflammation and damage in people who drink little to no alcohol",
+      "severity": "moderate"
+    },
+    "pelvic_organ_prolapse": {
+      "name": "Pelvic Organ Prolapse",
+      "description": "Descent of pelvic organs from weakened support",
+      "severity": "moderate"
+    },
+    "fracture_of_the_arm": {
+      "name": "Fracture Of The Arm",
+      "description": "Broken bone in the arm",
+      "severity": "moderate"
+    },
+    "coagulation_disorder": {
+      "name": "Coagulation (Bleeding) Disorder",
+      "description": "Abnormal blood clotting",
+      "severity": "severe"
+    },
+    "intracranial_hemorrhage": {
+      "name": "Intracranial Hemorrhage",
+      "description": "Bleeding within the skull",
+      "severity": "severe"
+    },
+    "hyperkalemia": {
+      "name": "Hyperkalemia",
+      "description": "Dangerously high potassium levels in blood",
+      "severity": "moderate"
+    },
+    "cornea_infection": {
+      "name": "Cornea Infection",
+      "description": "Infection of the cornea",
+      "severity": "moderate"
+    },
+    "abscess_of_the_lung": {
+      "name": "Abscess Of The Lung",
+      "description": "Medical condition affecting the abscess  lung",
+      "severity": "moderate"
+    },
+    "chronic_sinusitis": {
+      "name": "Chronic Sinusitis",
+      "description": "Long-lasting sinus inflammation",
+      "severity": "moderate"
+    },
+    "cholesteatoma": {
+      "name": "Cholesteatoma",
+      "description": "Abnormal skin growth in middle ear",
+      "severity": "moderate"
+    },
+    "volvulus": {
+      "name": "Volvulus",
+      "description": "Twisting of the intestine causing obstruction",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_analgesics": {
+      "name": "Poisoning Due To Analgesics",
+      "description": "Pain medication overdose",
+      "severity": "severe"
+    },
+    "atrial_fibrillation": {
+      "name": "Atrial Fibrillation",
+      "description": "Irregular and often rapid heart rhythm that can increase risk of stroke and heart failure",
+      "severity": "moderate"
+    },
+    "pinworm_infection": {
+      "name": "Pinworm Infection",
+      "description": "Intestinal parasite infection common in children",
+      "severity": "moderate"
+    },
+    "urethral_valves": {
+      "name": "Urethral Valves",
+      "description": "Congenital obstruction in urethra",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_neck": {
+      "name": "Open Wound Of The Neck",
+      "description": "Neck laceration",
+      "severity": "moderate"
+    },
+    "achalasia": {
+      "name": "Achalasia",
+      "description": "Disorder where the lower esophageal sphincter fails to relax, making swallowing difficult",
+      "severity": "moderate"
+    },
+    "conductive_hearing_loss": {
+      "name": "Conductive Hearing Loss",
+      "description": "Hearing loss from sound wave blockage",
+      "severity": "moderate"
+    },
+    "abdominal_hernia": {
+      "name": "Abdominal Hernia",
+      "description": "Protrusion of abdominal contents",
+      "severity": "moderate"
+    },
+    "cerebral_palsy": {
+      "name": "Cerebral Palsy",
+      "description": "Group of disorders affecting movement and posture due to brain damage",
+      "severity": "severe"
+    },
+    "marijuana_abuse": {
+      "name": "Marijuana Abuse",
+      "description": "Problematic cannabis use",
+      "severity": "moderate"
+    },
+    "cryptococcosis": {
+      "name": "Cryptococcosis",
+      "description": "Fungal infection affecting lungs and potentially brain",
+      "severity": "moderate"
+    },
+    "indigestion": {
+      "name": "Indigestion",
+      "description": "Discomfort or pain in the upper abdomen often after eating",
+      "severity": "mild"
+    },
+    "bursitis": {
+      "name": "Bursitis",
+      "description": "Inflammation of fluid-filled sacs cushioning joints",
+      "severity": "moderate"
+    },
+    "esophageal_cancer": {
+      "name": "Esophageal Cancer",
+      "description": "Cancer of the esophagus",
+      "severity": "severe"
+    },
+    "pulmonary_congestion": {
+      "name": "Pulmonary Congestion",
+      "description": "Buildup of fluid in the lungs making breathing difficult",
+      "severity": "moderate"
+    },
+    "juvenile_rheumatoid_arthritis": {
+      "name": "Juvenile Rheumatoid Arthritis",
+      "description": "Arthritis in children causing joint inflammation",
+      "severity": "moderate"
+    },
+    "actinic_keratosis": {
+      "name": "Actinic Keratosis",
+      "description": "Precancerous skin lesions from sun damage",
+      "severity": "moderate"
+    },
+    "acute_otitis_media": {
+      "name": "Acute Otitis Media",
+      "description": "Middle ear infection",
+      "severity": "moderate"
+    },
+    "astigmatism": {
+      "name": "Astigmatism",
+      "description": "Refractive error from irregular cornea",
+      "severity": "moderate"
+    },
+    "presbyacusis": {
+      "name": "Presbyacusis",
+      "description": "Age-related hearing loss",
+      "severity": "moderate"
+    },
+    "neonatal_jaundice": {
+      "name": "Neonatal Jaundice",
+      "description": "Yellowing of newborn skin",
+      "severity": "moderate"
+    },
+    "chronic_obstructive_pulmonary_disease": {
+      "name": "Chronic Obstructive Pulmonary Disease (Copd)",
+      "description": "Progressive lung disease causing airflow blockade and breathing difficulties",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_elbow": {
+      "name": "Dislocation Of The Elbow",
+      "description": "Elbow joint displacement",
+      "severity": "moderate"
+    },
+    "spondylosis": {
+      "name": "Spondylosis",
+      "description": "Age-related wear and tear of spinal discs",
+      "severity": "moderate"
+    },
+    "herpangina": {
+      "name": "Herpangina",
+      "description": "Viral infection causing mouth sores and fever in children",
+      "severity": "moderate"
+    },
+    "injury_to_the_shoulder": {
+      "name": "Injury To The Shoulder",
+      "description": "Trauma to the shoulder",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_antidepressants": {
+      "name": "Poisoning Due To Antidepressants",
+      "description": "Antidepressant overdose",
+      "severity": "severe"
+    },
+    "infection_of_open_wound": {
+      "name": "Infection Of Open Wound",
+      "description": "Invasion and multiplication of microorganisms in body tissues causing inflammation",
+      "severity": "moderate"
+    },
+    "deep_vein_thrombosis": {
+      "name": "Deep Vein Thrombosis (Dvt)",
+      "description": "Blood clot that forms in a deep vein, usually in the legs",
+      "severity": "moderate"
+    },
+    "protein_deficiency": {
+      "name": "Protein Deficiency",
+      "description": "Insufficient protein intake",
+      "severity": "moderate"
+    },
+    "myoclonus": {
+      "name": "Myoclonus",
+      "description": "Involuntary muscle jerks or twitches",
+      "severity": "moderate"
+    },
+    "bone_spur_of_the_calcaneous": {
+      "name": "Bone Spur Of The Calcaneous",
+      "description": "Bony growth on the heel",
+      "severity": "moderate"
+    },
+    "heart_block": {
+      "name": "Heart Block",
+      "description": "Disruption in the electrical signals controlling the heartbeat",
+      "severity": "moderate"
+    },
+    "colonic_polyp": {
+      "name": "Colonic Polyp",
+      "description": "Medical condition affecting the colonic polyp",
+      "severity": "moderate"
+    },
+    "magnesium_deficiency": {
+      "name": "Magnesium Deficiency",
+      "description": "Insufficient magnesium",
+      "severity": "moderate"
+    },
+    "female_infertility_of_unknown_cause": {
+      "name": "Female Infertility Of Unknown Cause",
+      "description": "Inability to conceive without identified reason",
+      "severity": "moderate"
+    },
+    "pericarditis": {
+      "name": "Pericarditis",
+      "description": "Inflammation of the pericardium, the thin sac surrounding the heart",
+      "severity": "moderate"
+    },
+    "attention_deficit_hyperactivity_disorder": {
+      "name": "Attention Deficit Hyperactivity Disorder (Adhd)",
+      "description": "Neurodevelopmental disorder with inattention and hyperactivity",
+      "severity": "moderate"
+    },
+    "pulmonic_valve_disease": {
+      "name": "Pulmonic Valve Disease",
+      "description": "Dysfunction of the valve controlling blood flow from the heart to the lungs",
+      "severity": "moderate"
+    },
+    "tietze_syndrome": {
+      "name": "Tietze Syndrome",
+      "description": "Inflammation of cartilage connecting ribs to breastbone",
+      "severity": "moderate"
+    },
+    "cranial_nerve_palsy": {
+      "name": "Cranial Nerve Palsy",
+      "description": "Loss of function of one or more cranial nerves",
+      "severity": "severe"
+    },
+    "injury_to_the_arm": {
+      "name": "Injury To The Arm",
+      "description": "Trauma to the arm",
+      "severity": "moderate"
+    },
+    "conversion_disorder": {
+      "name": "Conversion Disorder",
+      "description": "Psychological condition causing neurological symptoms without an organic neurological disease",
+      "severity": "moderate"
+    },
+    "complex_regional_pain_syndrome": {
+      "name": "Complex Regional Pain Syndrome",
+      "description": "Chronic pain condition usually affecting a limb after injury",
+      "severity": "moderate"
+    },
+    "otosclerosis": {
+      "name": "Otosclerosis",
+      "description": "Abnormal bone growth in middle ear",
+      "severity": "moderate"
+    },
+    "injury_to_the_trunk": {
+      "name": "Injury To The Trunk",
+      "description": "Trauma to the torso",
+      "severity": "moderate"
+    },
+    "hypothyroidism": {
+      "name": "Hypothyroidism",
+      "description": "Underactive thyroid gland producing insufficient hormones",
+      "severity": "moderate"
+    },
+    "primary_insomnia": {
+      "name": "Primary Insomnia",
+      "description": "Medical condition affecting the primary insomnia",
+      "severity": "moderate"
+    },
+    "lice": {
+      "name": "Lice",
+      "description": "Parasitic insect infestation",
+      "severity": "mild"
+    },
+    "vitamin_b12_deficiency": {
+      "name": "Vitamin B12 Deficiency",
+      "description": "Low B12 causing anemia",
+      "severity": "moderate"
+    },
+    "vulvodynia": {
+      "name": "Vulvodynia",
+      "description": "Chronic vulvar pain",
+      "severity": "moderate"
+    },
+    "endometriosis": {
+      "name": "Endometriosis",
+      "description": "Tissue similar to uterine lining grows outside uterus",
+      "severity": "moderate"
+    },
+    "vasculitis": {
+      "name": "Vasculitis",
+      "description": "Blood vessel inflammation",
+      "severity": "moderate"
+    },
+    "concussion": {
+      "name": "Concussion",
+      "description": "Mild traumatic brain injury from a blow to the head",
+      "severity": "moderate"
+    },
+    "chronic_kidney_disease": {
+      "name": "Chronic Kidney Disease",
+      "description": "Progressive loss of kidney function",
+      "severity": "moderate"
+    },
+    "bladder_disorder": {
+      "name": "Bladder Disorder",
+      "description": "Conditions affecting bladder function",
+      "severity": "moderate"
+    },
+    "chorioretinitis": {
+      "name": "Chorioretinitis",
+      "description": "Inflammation of choroid and retina",
+      "severity": "moderate"
+    },
+    "myositis": {
+      "name": "Myositis",
+      "description": "Inflammation of muscle tissue",
+      "severity": "moderate"
+    },
+    "mononucleosis": {
+      "name": "Mononucleosis",
+      "description": "Viral infection causing fever, sore throat, and swollen lymph nodes",
+      "severity": "moderate"
+    },
+    "neuralgia": {
+      "name": "Neuralgia",
+      "description": "Sharp, shocking pain along a nerve pathway",
+      "severity": "moderate"
+    },
+    "polycystic_kidney_disease": {
+      "name": "Polycystic Kidney Disease",
+      "description": "Genetic disorder with kidney cysts",
+      "severity": "moderate"
+    },
+    "bipolar_disorder": {
+      "name": "Bipolar Disorder",
+      "description": "Mental illness characterized by extreme mood swings between emotional highs (mania) and lows (depression)",
+      "severity": "moderate"
+    },
+    "chronic_inflammatory_demyelinating_polyneuropathy": {
+      "name": "Chronic Inflammatory Demyelinating Polyneuropathy (Cidp)",
+      "description": "Chronic disorder damaging myelin covering of peripheral nerves",
+      "severity": "moderate"
+    },
+    "gastroesophageal_reflux_disease": {
+      "name": "Gastroesophageal Reflux Disease (Gerd)",
+      "description": "Chronic condition where stomach acid flows back into the esophagus",
+      "severity": "moderate"
+    },
+    "vitreous_hemorrhage": {
+      "name": "Vitreous Hemorrhage",
+      "description": "Bleeding into gel-filled eye cavity",
+      "severity": "severe"
+    },
+    "poisoning_due_to_antimicrobial_drugs": {
+      "name": "Poisoning Due To Antimicrobial Drugs",
+      "description": "Antibiotic overdose",
+      "severity": "severe"
+    },
+    "open_wound_of_the_mouth": {
+      "name": "Open Wound Of The Mouth",
+      "description": "Mouth laceration",
+      "severity": "moderate"
+    },
+    "scleroderma": {
+      "name": "Scleroderma",
+      "description": "Autoimmune disease causing skin hardening",
+      "severity": "moderate"
+    },
+    "myasthenia_gravis": {
+      "name": "Myasthenia Gravis",
+      "description": "Chronic autoimmune disorder causing muscle weakness",
+      "severity": "moderate"
+    },
+    "hypoglycemia": {
+      "name": "Hypoglycemia",
+      "description": "Abnormally low blood sugar",
+      "severity": "moderate"
+    },
+    "idiopathic_absence_of_menstruation": {
+      "name": "Idiopathic Absence Of Menstruation",
+      "description": "Missed periods without known cause",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_ankle": {
+      "name": "Dislocation Of The Ankle",
+      "description": "Ankle joint displacement",
+      "severity": "moderate"
+    },
+    "carbon_monoxide_poisoning": {
+      "name": "Carbon Monoxide Poisoning",
+      "description": "Toxic exposure to carbon monoxide",
+      "severity": "severe"
+    },
+    "panic_attack": {
+      "name": "Panic Attack",
+      "description": "Sudden episode of intense fear triggering severe physical reactions when there is no real danger",
+      "severity": "severe"
+    },
+    "plantar_fasciitis": {
+      "name": "Plantar Fasciitis",
+      "description": "Inflammation of tissue on bottom of foot",
+      "severity": "moderate"
+    },
+    "hyperopia": {
+      "name": "Hyperopia",
+      "description": "Farsightedness",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_sedatives": {
+      "name": "Poisoning Due To Sedatives",
+      "description": "Sedative overdose",
+      "severity": "severe"
+    },
+    "peyronie_disease": {
+      "name": "Peyronie Disease",
+      "description": "Curved penis from scar tissue",
+      "severity": "moderate"
+    },
+    "hiatal_hernia": {
+      "name": "Hiatal Hernia",
+      "description": "Stomach protrusion through diaphragm",
+      "severity": "moderate"
+    },
+    "extrapyramidal_effect_of_drugs": {
+      "name": "Extrapyramidal Effect Of Drugs",
+      "description": "Movement disorders from medication",
+      "severity": "moderate"
+    },
+    "meniere_disease": {
+      "name": "Meniere Disease",
+      "description": "Inner ear disorder with vertigo and hearing loss",
+      "severity": "moderate"
+    },
+    "anal_fissure": {
+      "name": "Anal Fissure",
+      "description": "Small tear in the lining of the anus",
+      "severity": "moderate"
+    },
+    "allergy": {
+      "name": "Allergy",
+      "description": "Immune system overreaction to substances",
+      "severity": "mild"
+    },
+    "chronic_otitis_media": {
+      "name": "Chronic Otitis Media",
+      "description": "Long-term middle ear inflammation",
+      "severity": "moderate"
+    },
+    "hirschsprung_disease": {
+      "name": "Hirschsprung Disease",
+      "description": "Condition where nerve cells are missing from part of the colon",
+      "severity": "moderate"
+    },
+    "polymyalgia_rheumatica": {
+      "name": "Polymyalgia Rheumatica",
+      "description": "Inflammatory disorder with muscle pain",
+      "severity": "moderate"
+    },
+    "lymphedema": {
+      "name": "Lymphedema",
+      "description": "Swelling from lymph fluid accumulation",
+      "severity": "moderate"
+    },
+    "bladder_cancer": {
+      "name": "Bladder Cancer",
+      "description": "Cancer of the bladder",
+      "severity": "severe"
+    },
+    "acute_bronchospasm": {
+      "name": "Acute Bronchospasm",
+      "description": "Sudden constriction of the muscles in the airways causing difficulty breathing",
+      "severity": "moderate"
+    },
+    "acute_glaucoma": {
+      "name": "Acute Glaucoma",
+      "description": "Sudden eye pressure increase requiring emergency treatment",
+      "severity": "severe"
+    },
+    "sciatica": {
+      "name": "Sciatica",
+      "description": "Pain radiating along the sciatic nerve from lower back to leg",
+      "severity": "moderate"
+    },
+    "hypercalcemia": {
+      "name": "Hypercalcemia",
+      "description": "Elevated calcium levels in blood",
+      "severity": "moderate"
+    },
+    "stress_incontinence": {
+      "name": "Stress Incontinence",
+      "description": "Urine leakage from physical pressure",
+      "severity": "moderate"
+    },
+    "varicose_veins": {
+      "name": "Varicose Veins",
+      "description": "Enlarged, twisted veins",
+      "severity": "moderate"
+    },
+    "benign_kidney_cyst": {
+      "name": "Benign Kidney Cyst",
+      "description": "Noncancerous fluid-filled sac in kidney",
+      "severity": "mild"
+    },
+    "hydrocele_of_the_testicle": {
+      "name": "Hydrocele Of The Testicle",
+      "description": "Fluid accumulation around testicle",
+      "severity": "moderate"
+    },
+    "degenerative_disc_disease": {
+      "name": "Degenerative Disc Disease",
+      "description": "Age-related breakdown of spinal discs",
+      "severity": "moderate"
+    },
+    "hirsutism": {
+      "name": "Hirsutism",
+      "description": "Excessive hair growth in women",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_foot": {
+      "name": "Dislocation Of The Foot",
+      "description": "Foot joint displacement",
+      "severity": "moderate"
+    },
+    "hydronephrosis": {
+      "name": "Hydronephrosis",
+      "description": "Swelling of kidney from urine backup",
+      "severity": "moderate"
+    },
+    "diverticulosis": {
+      "name": "Diverticulosis",
+      "description": "Small pouches that form in the colon wall",
+      "severity": "moderate"
+    },
+    "pain_after_an_operation": {
+      "name": "Pain After An Operation",
+      "description": "Post-surgical pain",
+      "severity": "moderate"
+    },
+    "lymphoma": {
+      "name": "Lymphoma",
+      "description": "Lymphatic system cancer",
+      "severity": "severe"
+    },
+    "dermatitis_due_to_sun_exposure": {
+      "name": "Dermatitis Due To Sun Exposure",
+      "description": "Skin inflammation from sun",
+      "severity": "moderate"
+    },
+    "anemia_due_to_chronic_kidney_disease": {
+      "name": "Anemia Due To Chronic Kidney Disease",
+      "description": "Anemia from kidney disease",
+      "severity": "moderate"
+    },
+    "injury_to_internal_organ": {
+      "name": "Injury To Internal Organ",
+      "description": "Trauma affecting internal organs",
+      "severity": "moderate"
+    },
+    "scleritis": {
+      "name": "Scleritis",
+      "description": "Inflammation of white part of eye",
+      "severity": "moderate"
+    },
+    "pterygium": {
+      "name": "Pterygium",
+      "description": "Benign growth on eye surface",
+      "severity": "moderate"
+    },
+    "fungal_infection_of_the_skin": {
+      "name": "Fungal Infection Of The Skin",
+      "description": "Skin infection from fungi",
+      "severity": "moderate"
+    },
+    "foreign_body_in_the_ear": {
+      "name": "Foreign Body In The Ear",
+      "description": "Object in ear canal",
+      "severity": "moderate"
+    },
+    "premenstrual_tension_syndrome": {
+      "name": "Premenstrual Tension Syndrome",
+      "description": "Physical and emotional symptoms before menstruation",
+      "severity": "moderate"
+    },
+    "orbital_cellulitis": {
+      "name": "Orbital Cellulitis",
+      "description": "Serious infection around eye",
+      "severity": "moderate"
+    },
+    "injury_to_the_leg": {
+      "name": "Injury To The Leg",
+      "description": "Trauma to the leg",
+      "severity": "moderate"
+    },
+    "hepatic_encephalopathy": {
+      "name": "Hepatic Encephalopathy",
+      "description": "Decline in brain function due to severe liver disease",
+      "severity": "moderate"
+    },
+    "bone_cancer": {
+      "name": "Bone Cancer",
+      "description": "Malignant tumor in bone tissue",
+      "severity": "severe"
+    },
+    "syringomyelia": {
+      "name": "Syringomyelia",
+      "description": "Fluid-filled cyst within the spinal cord",
+      "severity": "moderate"
+    },
+    "pulmonary_fibrosis": {
+      "name": "Pulmonary Fibrosis",
+      "description": "Lung disease causing scarring of lung tissue, leading to breathing difficulty",
+      "severity": "moderate"
+    },
+    "mitral_valve_disease": {
+      "name": "Mitral Valve Disease",
+      "description": "Disorder of the heart valve between the left atrium and left ventricle",
+      "severity": "moderate"
+    },
+    "parkinson_disease": {
+      "name": "Parkinson Disease",
+      "description": "Progressive nervous system disorder affecting movement",
+      "severity": "severe"
+    },
+    "gout": {
+      "name": "Gout",
+      "description": "Form of arthritis with sudden severe pain from uric acid crystals",
+      "severity": "moderate"
+    },
+    "otitis_media": {
+      "name": "Otitis Media",
+      "description": "Middle ear inflammation",
+      "severity": "moderate"
+    },
+    "drug_abuse": {
+      "name": "Drug Abuse (Opioids)",
+      "description": "Opioid addiction",
+      "severity": "moderate"
+    },
+    "fracture_of_the_shoulder": {
+      "name": "Fracture Of The Shoulder",
+      "description": "Broken bone in the shoulder",
+      "severity": "moderate"
+    },
+    "acute_kidney_injury": {
+      "name": "Acute Kidney Injury",
+      "description": "Sudden kidney function loss",
+      "severity": "severe"
+    },
+    "threatened_pregnancy": {
+      "name": "Threatened Pregnancy",
+      "description": "Vaginal bleeding suggesting possible miscarriage",
+      "severity": "moderate"
+    },
+    "intracranial_abscess": {
+      "name": "Intracranial Abscess",
+      "description": "Collection of pus within the skull",
+      "severity": "moderate"
+    },
+    "gum_disease": {
+      "name": "Gum Disease",
+      "description": "Infection of gums",
+      "severity": "moderate"
+    },
+    "gastrointestinal_hemorrhage": {
+      "name": "Gastrointestinal Hemorrhage",
+      "description": "Bleeding in the digestive tract",
+      "severity": "severe"
+    },
+    "seborrheic_dermatitis": {
+      "name": "Seborrheic Dermatitis",
+      "description": "Inflammatory skin condition on scalp and face",
+      "severity": "moderate"
+    },
+    "torticollis": {
+      "name": "Torticollis",
+      "description": "Twisted neck causing head tilt",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_antihypertensives": {
+      "name": "Poisoning Due To Antihypertensives",
+      "description": "Blood pressure medication overdose",
+      "severity": "severe"
+    },
+    "tension_headache": {
+      "name": "Tension Headache",
+      "description": "Headache from muscle tension",
+      "severity": "moderate"
+    },
+    "alcohol_intoxication": {
+      "name": "Alcohol Intoxication",
+      "description": "Impairment from excessive alcohol",
+      "severity": "severe"
+    },
+    "narcolepsy": {
+      "name": "Narcolepsy",
+      "description": "Chronic sleep disorder causing excessive daytime sleepiness",
+      "severity": "moderate"
+    },
+    "food_allergy": {
+      "name": "Food Allergy",
+      "description": "Immune reaction to specific foods",
+      "severity": "mild"
+    },
+    "labyrinthitis": {
+      "name": "Labyrinthitis",
+      "description": "Inner ear infection causing vertigo",
+      "severity": "moderate"
+    },
+    "anxiety": {
+      "name": "Anxiety",
+      "description": "Mental health disorder characterized by excessive worry, nervousness, and fear that interferes with daily activities",
+      "severity": "moderate"
+    },
+    "impulse_control_disorder": {
+      "name": "Impulse Control Disorder",
+      "description": "Mental health conditions characterized by inability to resist urges or impulses that may harm oneself or others",
+      "severity": "moderate"
+    },
+    "stenosis_of_the_tear_duct": {
+      "name": "Stenosis Of The Tear Duct",
+      "description": "Narrowing of tear drainage system",
+      "severity": "moderate"
+    },
+    "abscess_of_nose": {
+      "name": "Abscess Of Nose",
+      "description": "Pus collection in nasal tissue",
+      "severity": "moderate"
+    },
+    "leukemia": {
+      "name": "Leukemia",
+      "description": "Blood cancer",
+      "severity": "severe"
+    },
+    "bell_palsy": {
+      "name": "Bell Palsy",
+      "description": "Sudden weakness or paralysis of facial muscles",
+      "severity": "severe"
+    },
+    "conjunctivitis_due_to_allergy": {
+      "name": "Conjunctivitis Due To Allergy",
+      "description": "Allergic eye inflammation",
+      "severity": "mild"
+    },
+    "drug_reaction": {
+      "name": "Drug Reaction",
+      "description": "Adverse response to medication",
+      "severity": "moderate"
+    },
+    "myopia": {
+      "name": "Myopia",
+      "description": "Nearsightedness",
+      "severity": "moderate"
+    },
+    "osteoarthritis": {
+      "name": "Osteoarthritis",
+      "description": "Degenerative joint disease from cartilage breakdown",
+      "severity": "moderate"
+    },
+    "thyroid_disease": {
+      "name": "Thyroid Disease",
+      "description": "Disorders affecting thyroid gland function",
+      "severity": "moderate"
+    },
+    "pharyngitis": {
+      "name": "Pharyngitis",
+      "description": "Throat inflammation",
+      "severity": "moderate"
+    },
+    "chronic_rheumatic_fever": {
+      "name": "Chronic Rheumatic Fever",
+      "description": "Long-term inflammatory disease from strep infection",
+      "severity": "moderate"
+    },
+    "hypocalcemia": {
+      "name": "Hypocalcemia",
+      "description": "Low calcium levels in blood",
+      "severity": "moderate"
+    },
+    "macular_degeneration": {
+      "name": "Macular Degeneration",
+      "description": "Progressive damage to central retina",
+      "severity": "moderate"
+    },
+    "pneumonia": {
+      "name": "Pneumonia",
+      "description": "Lung infection causing inflammation of air sacs, which may fill with fluid or pus",
+      "severity": "moderate"
+    },
+    "cold_sore": {
+      "name": "Cold Sore",
+      "description": "Small blister caused by herpes simplex virus",
+      "severity": "mild"
+    },
+    "premature_ventricular_contractions": {
+      "name": "Premature Ventricular Contractions (Pvcs)",
+      "description": "Extra heartbeats originating in the ventricles",
+      "severity": "moderate"
+    },
+    "testicular_cancer": {
+      "name": "Testicular Cancer",
+      "description": "Malignant tumor in testicle",
+      "severity": "severe"
+    },
+    "hydrocephalus": {
+      "name": "Hydrocephalus",
+      "description": "Accumulation of fluid in brain cavities",
+      "severity": "moderate"
+    },
+    "anemia_due_to_malignancy": {
+      "name": "Anemia Due To Malignancy",
+      "description": "Anemia from cancer",
+      "severity": "moderate"
+    },
+    "endometrial_cancer": {
+      "name": "Endometrial Cancer",
+      "description": "Cancer of the uterine lining",
+      "severity": "severe"
+    },
+    "cystic_fibrosis": {
+      "name": "Cystic Fibrosis",
+      "description": "Genetic disorder affecting lungs and digestive system",
+      "severity": "moderate"
+    },
+    "intertrigo": {
+      "name": "Intertrigo (Skin Condition)",
+      "description": "Skin inflammation in body folds",
+      "severity": "moderate"
+    },
+    "parathyroid_adenoma": {
+      "name": "Parathyroid Adenoma",
+      "description": "Benign tumor of the parathyroid gland",
+      "severity": "moderate"
+    },
+    "glucocorticoid_deficiency": {
+      "name": "Glucocorticoid Deficiency",
+      "description": "Insufficient production of cortisol",
+      "severity": "moderate"
+    },
+    "temporomandibular_joint_disorder": {
+      "name": "Temporomandibular Joint Disorder",
+      "description": "Jaw joint dysfunction",
+      "severity": "moderate"
+    },
+    "wilson_disease": {
+      "name": "Wilson Disease",
+      "description": "Genetic disorder causing copper accumulation in body",
+      "severity": "moderate"
+    },
+    "vesicoureteral_reflux": {
+      "name": "Vesicoureteral Reflux",
+      "description": "Backward flow of urine from bladder to kidneys",
+      "severity": "moderate"
+    },
+    "gonorrhea": {
+      "name": "Gonorrhea",
+      "description": "Sexually transmitted bacterial infection",
+      "severity": "moderate"
+    },
+    "fracture_of_the_rib": {
+      "name": "Fracture Of The Rib",
+      "description": "Broken rib bone",
+      "severity": "moderate"
+    },
+    "ependymoma": {
+      "name": "Ependymoma",
+      "description": "Tumor arising from cells lining brain ventricles or spinal canal",
+      "severity": "moderate"
+    },
+    "hepatitis_due_to_a_toxin": {
+      "name": "Hepatitis Due To A Toxin",
+      "description": "Liver inflammation caused by toxic substance exposure",
+      "severity": "moderate"
+    },
+    "vaginal_cyst": {
+      "name": "Vaginal Cyst",
+      "description": "Fluid-filled sac in vaginal wall",
+      "severity": "moderate"
+    },
+    "ectopic_pregnancy": {
+      "name": "Ectopic Pregnancy",
+      "description": "Pregnancy outside the uterus",
+      "severity": "moderate"
+    },
+    "chronic_knee_pain": {
+      "name": "Chronic Knee Pain",
+      "description": "Persistent knee pain lasting more than 3 months",
+      "severity": "moderate"
+    },
+    "alcohol_abuse": {
+      "name": "Alcohol Abuse",
+      "description": "Problematic alcohol use",
+      "severity": "moderate"
+    },
+    "carpal_tunnel_syndrome": {
+      "name": "Carpal Tunnel Syndrome",
+      "description": "Nerve compression in the wrist",
+      "severity": "moderate"
+    },
+    "pituitary_disorder": {
+      "name": "Pituitary Disorder",
+      "description": "Conditions affecting pituitary gland function",
+      "severity": "moderate"
+    },
+    "kidney_stone": {
+      "name": "Kidney Stone",
+      "description": "Hard mineral deposit in the kidney",
+      "severity": "moderate"
+    },
+    "autism": {
+      "name": "Autism",
+      "description": "Neurodevelopmental disorder affecting communication",
+      "severity": "moderate"
+    },
+    "chronic_glaucoma": {
+      "name": "Chronic Glaucoma",
+      "description": "Progressive optic nerve damage from gradual pressure increase",
+      "severity": "severe"
+    },
+    "retinal_detachment": {
+      "name": "Retinal Detachment",
+      "description": "Separation of retina from eye wall",
+      "severity": "moderate"
+    },
+    "aplastic_anemia": {
+      "name": "Aplastic Anemia",
+      "description": "Bone marrow failure",
+      "severity": "moderate"
+    },
+    "overflow_incontinence": {
+      "name": "Overflow Incontinence",
+      "description": "Bladder doesn't empty completely causing leakage",
+      "severity": "moderate"
+    },
+    "hemolytic_anemia": {
+      "name": "Hemolytic Anemia",
+      "description": "Anemia from red blood cell destruction",
+      "severity": "moderate"
+    },
+    "lateral_epicondylitis": {
+      "name": "Lateral Epicondylitis (Tennis Elbow)",
+      "description": "Pain and inflammation in the elbow tendons",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_eye": {
+      "name": "Open Wound Of The Eye",
+      "description": "Eye injury",
+      "severity": "moderate"
+    },
+    "syphilis": {
+      "name": "Syphilis",
+      "description": "Sexually transmitted bacterial infection",
+      "severity": "moderate"
+    },
+    "nose_disorder": {
+      "name": "Nose Disorder",
+      "description": "Conditions affecting the nose",
+      "severity": "moderate"
+    },
+    "drug_withdrawal": {
+      "name": "Drug Withdrawal",
+      "description": "Symptoms from stopping substance use",
+      "severity": "moderate"
+    },
+    "dental_caries": {
+      "name": "Dental Caries",
+      "description": "Tooth decay",
+      "severity": "moderate"
+    },
+    "fracture_of_the_patella": {
+      "name": "Fracture Of The Patella",
+      "description": "Broken kneecap",
+      "severity": "moderate"
+    },
+    "kidney_failure": {
+      "name": "Kidney Failure",
+      "description": "Complete loss of kidney function",
+      "severity": "severe"
+    },
+    "fracture_of_the_neck": {
+      "name": "Fracture Of The Neck",
+      "description": "Broken bone in the neck",
+      "severity": "moderate"
+    },
+    "muscle_spasm": {
+      "name": "Muscle Spasm",
+      "description": "Involuntary muscle contraction",
+      "severity": "moderate"
+    },
+    "hemophilia": {
+      "name": "Hemophilia",
+      "description": "Genetic bleeding disorder",
+      "severity": "moderate"
+    },
+    "peritonsillar_abscess": {
+      "name": "Peritonsillar Abscess",
+      "description": "Pus collection near tonsil",
+      "severity": "moderate"
+    },
+    "gastroparesis": {
+      "name": "Gastroparesis",
+      "description": "Condition affecting stomach muscles and preventing proper stomach emptying",
+      "severity": "moderate"
+    },
+    "itching_of_unknown_cause": {
+      "name": "Itching Of Unknown Cause",
+      "description": "Persistent itching without identifiable cause",
+      "severity": "moderate"
+    },
+    "polycythemia_vera": {
+      "name": "Polycythemia Vera",
+      "description": "Excessive red blood cell production",
+      "severity": "moderate"
+    },
+    "thrombocytopenia": {
+      "name": "Thrombocytopenia",
+      "description": "Low platelet count",
+      "severity": "moderate"
+    },
+    "head_and_neck_cancer": {
+      "name": "Head And Neck Cancer",
+      "description": "Malignant tumors in head and neck region",
+      "severity": "severe"
+    },
+    "pseudohypoparathyroidism": {
+      "name": "Pseudohypoparathyroidism",
+      "description": "Condition where body doesn't respond to parathyroid hormone",
+      "severity": "moderate"
+    },
+    "goiter": {
+      "name": "Goiter",
+      "description": "Enlarged thyroid gland",
+      "severity": "moderate"
+    },
+    "urge_incontinence": {
+      "name": "Urge Incontinence",
+      "description": "Sudden strong urge to urinate with leakage",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_arm": {
+      "name": "Open Wound Of The Arm",
+      "description": "Arm laceration",
+      "severity": "moderate"
+    },
+    "muscular_dystrophy": {
+      "name": "Muscular Dystrophy",
+      "description": "Group of genetic diseases causing progressive muscle weakness",
+      "severity": "moderate"
+    },
+    "mittelschmerz": {
+      "name": "Mittelschmerz",
+      "description": "Pelvic pain during ovulation",
+      "severity": "moderate"
+    },
+    "corneal_abrasion": {
+      "name": "Corneal Abrasion",
+      "description": "Scratch on the cornea",
+      "severity": "moderate"
+    },
+    "anemia_of_chronic_disease": {
+      "name": "Anemia Of Chronic Disease",
+      "description": "Anemia from chronic conditions",
+      "severity": "moderate"
+    },
+    "dysthymic_disorder": {
+      "name": "Dysthymic Disorder",
+      "description": "Persistent mild depression lasting for at least two years",
+      "severity": "moderate"
+    },
+    "scarlet_fever": {
+      "name": "Scarlet Fever",
+      "description": "Bacterial infection with strep throat and characteristic rash",
+      "severity": "mild"
+    },
+    "hypertensive_heart_disease": {
+      "name": "Hypertensive Heart Disease",
+      "description": "Heart disease caused by chronic high blood pressure",
+      "severity": "moderate"
+    },
+    "polycystic_ovarian_syndrome": {
+      "name": "Polycystic Ovarian Syndrome (Pcos)",
+      "description": "Hormonal disorder causing enlarged ovaries with cysts",
+      "severity": "moderate"
+    },
+    "encephalitis": {
+      "name": "Encephalitis",
+      "description": "Inflammation of the brain tissue",
+      "severity": "severe"
+    },
+    "cyst_of_the_eyelid": {
+      "name": "Cyst Of The Eyelid",
+      "description": "Fluid-filled sac on eyelid",
+      "severity": "moderate"
+    },
+    "balanitis": {
+      "name": "Balanitis",
+      "description": "Inflammation of penis head",
+      "severity": "moderate"
+    },
+    "foreign_body_in_the_throat": {
+      "name": "Foreign Body In The Throat",
+      "description": "Object lodged in throat",
+      "severity": "moderate"
+    },
+    "optic_neuritis": {
+      "name": "Optic Neuritis",
+      "description": "Inflammation of optic nerve",
+      "severity": "moderate"
+    },
+    "alcohol_withdrawal": {
+      "name": "Alcohol Withdrawal",
+      "description": "Symptoms from stopping alcohol",
+      "severity": "moderate"
+    },
+    "premature_atrial_contractions": {
+      "name": "Premature Atrial Contractions (Pacs)",
+      "description": "Extra heartbeats originating in the atria",
+      "severity": "moderate"
+    },
+    "hemiplegia": {
+      "name": "Hemiplegia",
+      "description": "Paralysis of one side of the body",
+      "severity": "moderate"
+    },
+    "joint_effusion": {
+      "name": "Joint Effusion",
+      "description": "Excess fluid in a joint",
+      "severity": "moderate"
+    },
+    "meningioma": {
+      "name": "Meningioma",
+      "description": "Usually benign tumor arising from membranes surrounding brain and spinal cord",
+      "severity": "moderate"
+    },
+    "brain_cancer": {
+      "name": "Brain Cancer",
+      "description": "Malignant tumor in the brain",
+      "severity": "severe"
+    },
+    "placental_abruption": {
+      "name": "Placental Abruption",
+      "description": "Premature separation of placenta from uterus",
+      "severity": "moderate"
+    },
+    "seasonal_allergies": {
+      "name": "Seasonal Allergies (Hay Fever)",
+      "description": "Allergic reaction to pollen",
+      "severity": "mild"
+    },
+    "lung_cancer": {
+      "name": "Lung Cancer",
+      "description": "Malignant tumor in the lungs",
+      "severity": "severe"
+    },
+    "primary_kidney_disease": {
+      "name": "Primary Kidney Disease",
+      "description": "Kidney disorders not from other conditions",
+      "severity": "moderate"
+    },
+    "dry_eye_of_unknown_cause": {
+      "name": "Dry Eye Of Unknown Cause",
+      "description": "Insufficient tear production",
+      "severity": "moderate"
+    },
+    "fibrocystic_breast_disease": {
+      "name": "Fibrocystic Breast Disease",
+      "description": "Benign breast lumps",
+      "severity": "moderate"
+    },
+    "fungal_infection_of_the_hair": {
+      "name": "Fungal Infection Of The Hair",
+      "description": "Scalp fungal infection",
+      "severity": "moderate"
+    },
+    "tooth_abscess": {
+      "name": "Tooth Abscess",
+      "description": "Infection at tooth root",
+      "severity": "moderate"
+    },
+    "envenomation_from_spider_or_animal_bite": {
+      "name": "Envenomation From Spider Or Animal Bite",
+      "description": "Toxic reaction from venomous bite",
+      "severity": "moderate"
+    },
+    "vertebrobasilar_insufficiency": {
+      "name": "Vertebrobasilar Insufficiency",
+      "description": "Reduced blood flow to back of the brain",
+      "severity": "moderate"
+    },
+    "rectal_disorder": {
+      "name": "Rectal Disorder",
+      "description": "Various conditions affecting the rectum",
+      "severity": "moderate"
+    },
+    "atonic_bladder": {
+      "name": "Atonic Bladder",
+      "description": "Bladder muscle weakness",
+      "severity": "moderate"
+    },
+    "benign_paroxysmal_positional_vertical": {
+      "name": "Benign Paroxysmal Positional Vertical (Bppv)",
+      "description": "Inner ear disorder causing brief spinning sensations",
+      "severity": "mild"
+    },
+    "sarcoidosis": {
+      "name": "Sarcoidosis",
+      "description": "Inflammatory disease with granulomas",
+      "severity": "moderate"
+    },
+    "metastatic_cancer": {
+      "name": "Metastatic Cancer",
+      "description": "Cancer that has spread from original site",
+      "severity": "severe"
+    },
+    "trigger_finger": {
+      "name": "Trigger Finger (Finger Disorder)",
+      "description": "Finger stiffness and locking",
+      "severity": "moderate"
+    },
+    "stye": {
+      "name": "Stye",
+      "description": "Infected eyelash follicle",
+      "severity": "mild"
+    },
+    "osteochondroma": {
+      "name": "Osteochondroma",
+      "description": "Benign bone growth",
+      "severity": "moderate"
+    },
+    "vitreous_degeneration": {
+      "name": "Vitreous Degeneration",
+      "description": "Age-related changes in eye gel",
+      "severity": "moderate"
+    },
+    "atrophic_skin_condition": {
+      "name": "Atrophic Skin Condition",
+      "description": "Thinning of the skin",
+      "severity": "moderate"
+    },
+    "aspergillosis": {
+      "name": "Aspergillosis",
+      "description": "Infection or allergic response caused by Aspergillus fungus affecting the lungs",
+      "severity": "moderate"
+    },
+    "uterine_atony": {
+      "name": "Uterine Atony",
+      "description": "Failure of uterus to contract after childbirth",
+      "severity": "moderate"
+    },
+    "trichinosis": {
+      "name": "Trichinosis",
+      "description": "Parasitic infection from undercooked meat",
+      "severity": "moderate"
+    },
+    "whooping_cough": {
+      "name": "Whooping Cough",
+      "description": "Highly contagious bacterial respiratory infection characterized by severe coughing fits",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_lip": {
+      "name": "Open Wound Of The Lip",
+      "description": "Lip laceration",
+      "severity": "moderate"
+    },
+    "subacute_thyroiditis": {
+      "name": "Subacute Thyroiditis",
+      "description": "Painful inflammation of the thyroid gland",
+      "severity": "moderate"
+    },
+    "oral_mucosal_lesion": {
+      "name": "Oral Mucosal Lesion",
+      "description": "Abnormal tissue in mouth lining",
+      "severity": "moderate"
+    },
+    "intracerebral_hemorrhage": {
+      "name": "Intracerebral Hemorrhage",
+      "description": "Bleeding within the brain tissue",
+      "severity": "severe"
+    },
+    "alzheimer_disease": {
+      "name": "Alzheimer Disease",
+      "description": "Progressive brain disorder destroying memory and thinking skills",
+      "severity": "severe"
+    },
+    "vaginismus": {
+      "name": "Vaginismus",
+      "description": "Involuntary vaginal muscle spasms",
+      "severity": "moderate"
+    },
+    "systemic_lupus_erythematosis": {
+      "name": "Systemic Lupus Erythematosis (Sle)",
+      "description": "Autoimmune disease affecting multiple organs",
+      "severity": "moderate"
+    },
+    "premature_ovarian_failure": {
+      "name": "Premature Ovarian Failure",
+      "description": "Loss of ovarian function before age 40",
+      "severity": "severe"
+    },
+    "thoracic_outlet_syndrome": {
+      "name": "Thoracic Outlet Syndrome",
+      "description": "Compression of nerves or blood vessels between collarbone and first rib",
+      "severity": "moderate"
+    },
+    "ganglion_cyst": {
+      "name": "Ganglion Cyst",
+      "description": "Fluid-filled lump near joints or tendons",
+      "severity": "moderate"
+    },
+    "crohn_disease": {
+      "name": "Crohn Disease",
+      "description": "Chronic inflammatory disease affecting the digestive tract",
+      "severity": "moderate"
+    },
+    "postoperative_infection": {
+      "name": "Postoperative Infection",
+      "description": "Invasion and multiplication of microorganisms in body tissues causing inflammation",
+      "severity": "moderate"
+    },
+    "folate_deficiency": {
+      "name": "Folate Deficiency",
+      "description": "Low folic acid",
+      "severity": "moderate"
+    },
+    "fluid_overload": {
+      "name": "Fluid Overload",
+      "description": "Excess body fluid",
+      "severity": "moderate"
+    },
+    "atrial_flutter": {
+      "name": "Atrial Flutter",
+      "description": "Abnormal heart rhythm with rapid but regular atrial contractions",
+      "severity": "moderate"
+    },
+    "skin_disorder": {
+      "name": "Skin Disorder",
+      "description": "Various conditions affecting the skin",
+      "severity": "moderate"
+    },
+    "floaters": {
+      "name": "Floaters",
+      "description": "Spots or strings in vision",
+      "severity": "mild"
+    },
+    "tooth_disorder": {
+      "name": "Tooth Disorder",
+      "description": "Dental problems",
+      "severity": "moderate"
+    },
+    "heart_attack": {
+      "name": "Heart Attack",
+      "description": "Blockage of blood flow to the heart muscle causing tissue death",
+      "severity": "severe"
+    },
+    "fracture_of_the_leg": {
+      "name": "Fracture Of The Leg",
+      "description": "Broken bone in the leg",
+      "severity": "moderate"
+    },
+    "oral_thrush": {
+      "name": "Oral Thrush (Yeast Infection)",
+      "description": "Fungal infection in mouth",
+      "severity": "mild"
+    },
+    "pityriasis_rosea": {
+      "name": "Pityriasis Rosea",
+      "description": "Skin rash with scaly patches",
+      "severity": "moderate"
+    },
+    "allergy_to_animals": {
+      "name": "Allergy To Animals",
+      "description": "Allergic reaction to pet dander",
+      "severity": "severe"
+    },
+    "orthostatic_hypotension": {
+      "name": "Orthostatic Hypotension",
+      "description": "Medical condition affecting the orthostatic hypotension",
+      "severity": "moderate"
+    },
+    "obstructive_sleep_apnea": {
+      "name": "Obstructive Sleep Apnea (Osa)",
+      "description": "Medical condition affecting the obstructive sleep apnea (osa)",
+      "severity": "moderate"
+    },
+    "hypokalemia": {
+      "name": "Hypokalemia",
+      "description": "Low potassium levels in blood",
+      "severity": "moderate"
+    },
+    "psoriasis": {
+      "name": "Psoriasis",
+      "description": "Autoimmune skin condition with scaly patches",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_shoulder": {
+      "name": "Dislocation Of The Shoulder",
+      "description": "Shoulder joint displacement",
+      "severity": "moderate"
+    },
+    "cervicitis": {
+      "name": "Cervicitis",
+      "description": "Inflammation of the cervix",
+      "severity": "moderate"
+    },
+    "abscess_of_the_pharynx": {
+      "name": "Abscess Of The Pharynx",
+      "description": "Pus collection in throat",
+      "severity": "moderate"
+    },
+    "arthritis_of_the_hip": {
+      "name": "Arthritis Of The Hip",
+      "description": "Joint inflammation in the hip",
+      "severity": "moderate"
+    },
+    "decubitus_ulcer": {
+      "name": "Decubitus Ulcer",
+      "description": "Pressure sore from prolonged immobility",
+      "severity": "moderate"
+    },
+    "hypernatremia": {
+      "name": "Hypernatremia",
+      "description": "High sodium levels in blood",
+      "severity": "moderate"
+    },
+    "sensorineural_hearing_loss": {
+      "name": "Sensorineural Hearing Loss",
+      "description": "Permanent hearing loss from inner ear damage",
+      "severity": "moderate"
+    },
+    "osteoporosis": {
+      "name": "Osteoporosis",
+      "description": "Condition causing bones to become weak and brittle",
+      "severity": "moderate"
+    },
+    "ileus": {
+      "name": "Ileus",
+      "description": "Lack of movement in the intestines",
+      "severity": "moderate"
+    },
+    "sickle_cell_crisis": {
+      "name": "Sickle Cell Crisis",
+      "description": "Severe pain episode in sickle cell disease",
+      "severity": "moderate"
+    },
+    "urethritis": {
+      "name": "Urethritis",
+      "description": "Inflammation of the urethra",
+      "severity": "moderate"
+    },
+    "prostatitis": {
+      "name": "Prostatitis",
+      "description": "Inflammation of the prostate gland",
+      "severity": "moderate"
+    },
+    "otitis_externa": {
+      "name": "Otitis Externa (Swimmer'S Ear)",
+      "description": "Outer ear canal infection",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_anticonvulsants": {
+      "name": "Poisoning Due To Anticonvulsants",
+      "description": "Seizure medication overdose",
+      "severity": "severe"
+    },
+    "testicular_torsion": {
+      "name": "Testicular Torsion",
+      "description": "Twisted testicle cutting off blood supply",
+      "severity": "severe"
+    },
+    "urethral_stricture": {
+      "name": "Urethral Stricture",
+      "description": "Narrowing of the urethra",
+      "severity": "moderate"
+    },
+    "vitamin_d_deficiency": {
+      "name": "Vitamin D Deficiency",
+      "description": "Insufficient vitamin D",
+      "severity": "moderate"
+    },
+    "hydatidiform_mole": {
+      "name": "Hydatidiform Mole",
+      "description": "Abnormal pregnancy with tissue growth instead of fetus",
+      "severity": "moderate"
+    },
+    "pain_disorder_affecting_the_neck": {
+      "name": "Pain Disorder Affecting The Neck",
+      "description": "Chronic neck pain",
+      "severity": "moderate"
+    },
+    "tuberculosis": {
+      "name": "Tuberculosis",
+      "description": "Serious bacterial infection primarily affecting the lungs",
+      "severity": "severe"
+    },
+    "acute_bronchiolitis": {
+      "name": "Acute Bronchiolitis",
+      "description": "Viral infection of the small airways in the lungs, most common in infants",
+      "severity": "moderate"
+    },
+    "presbyopia": {
+      "name": "Presbyopia",
+      "description": "Age-related loss of near focusing",
+      "severity": "moderate"
+    },
+    "dementia": {
+      "name": "Dementia",
+      "description": "Decline in cognitive function affecting daily life",
+      "severity": "severe"
+    },
+    "insect_bite": {
+      "name": "Insect Bite",
+      "description": "Skin reaction to insect sting or bite",
+      "severity": "mild"
+    },
+    "paroxysmal_ventricular_tachycardia": {
+      "name": "Paroxysmal Ventricular Tachycardia",
+      "description": "Rapid heart rhythm starting in the ventricles",
+      "severity": "moderate"
+    },
+    "congenital_heart_defect": {
+      "name": "Congenital Heart Defect",
+      "description": "Structural heart problem present at birth",
+      "severity": "moderate"
+    },
+    "foreign_body_in_the_eye": {
+      "name": "Foreign Body In The Eye",
+      "description": "Object in the eye",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_gas": {
+      "name": "Poisoning Due To Gas",
+      "description": "Toxic gas exposure",
+      "severity": "severe"
+    },
+    "pyogenic_skin_infection": {
+      "name": "Pyogenic Skin Infection",
+      "description": "Bacterial skin infection with pus formation",
+      "severity": "moderate"
+    },
+    "endometrial_hyperplasia": {
+      "name": "Endometrial Hyperplasia",
+      "description": "Excessive thickening of uterine lining",
+      "severity": "moderate"
+    },
+    "acanthosis_nigricans": {
+      "name": "Acanthosis Nigricans",
+      "description": "Skin condition with dark, thick patches often associated with insulin resistance",
+      "severity": "moderate"
+    },
+    "central_atherosclerosis": {
+      "name": "Central Atherosclerosis",
+      "description": "Plaque buildup in the major central arteries",
+      "severity": "moderate"
+    },
+    "viral_exanthem": {
+      "name": "Viral Exanthem",
+      "description": "Rash caused by viral infection",
+      "severity": "moderate"
+    },
+    "noninfectious_gastroenteritis": {
+      "name": "Noninfectious Gastroenteritis",
+      "description": "Inflammation of stomach and intestines not caused by infection",
+      "severity": "moderate"
+    },
+    "benign_prostatic_hyperplasia": {
+      "name": "Benign Prostatic Hyperplasia (Bph)",
+      "description": "Enlarged prostate in older men",
+      "severity": "mild"
+    },
+    "menopause": {
+      "name": "Menopause",
+      "description": "Natural cessation of menstruation",
+      "severity": "moderate"
+    },
+    "primary_immunodeficiency": {
+      "name": "Primary Immunodeficiency",
+      "description": "Genetic immune system disorder",
+      "severity": "moderate"
+    },
+    "ovarian_cancer": {
+      "name": "Ovarian Cancer",
+      "description": "Malignant tumor in the ovary",
+      "severity": "severe"
+    },
+    "cataract": {
+      "name": "Cataract",
+      "description": "Clouding of eye lens",
+      "severity": "moderate"
+    },
+    "spinal_stenosis": {
+      "name": "Spinal Stenosis",
+      "description": "Narrowing of spaces in the spine",
+      "severity": "moderate"
+    },
+    "intestinal_obstruction": {
+      "name": "Intestinal Obstruction",
+      "description": "Blockage preventing food or liquid from passing through intestines",
+      "severity": "moderate"
+    },
+    "heart_contusion": {
+      "name": "Heart Contusion",
+      "description": "Bruising of the heart muscle from chest trauma",
+      "severity": "moderate"
+    },
+    "congenital_malformation_syndrome": {
+      "name": "Congenital Malformation Syndrome",
+      "description": "Multiple birth defects",
+      "severity": "moderate"
+    },
+    "intestinal_disease": {
+      "name": "Intestinal Disease",
+      "description": "Various disorders affecting the intestines",
+      "severity": "moderate"
+    },
+    "acute_bronchitis": {
+      "name": "Acute Bronchitis",
+      "description": "Inflammation of the bronchial tubes causing cough and mucus production",
+      "severity": "moderate"
+    },
+    "persistent_vomiting_of_unknown_cause": {
+      "name": "Persistent Vomiting Of Unknown Cause",
+      "description": "Ongoing vomiting without identified medical reason",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_foot": {
+      "name": "Open Wound Of The Foot",
+      "description": "Foot laceration",
+      "severity": "moderate"
+    },
+    "preeclampsia": {
+      "name": "Preeclampsia",
+      "description": "Pregnancy complication with high blood pressure",
+      "severity": "severe"
+    },
+    "ischemic_heart_disease": {
+      "name": "Ischemic Heart Disease",
+      "description": "Heart condition caused by narrowed arteries reducing blood and oxygen to the heart",
+      "severity": "severe"
+    },
+    "neurofibromatosis": {
+      "name": "Neurofibromatosis",
+      "description": "Medical condition affecting the neurofibromatosis",
+      "severity": "moderate"
+    },
+    "chickenpox": {
+      "name": "Chickenpox",
+      "description": "Highly contagious viral infection causing itchy rash with blisters",
+      "severity": "moderate"
+    },
+    "pancreatic_cancer": {
+      "name": "Pancreatic Cancer",
+      "description": "Cancer of the pancreas",
+      "severity": "severe"
+    },
+    "neuropathy_due_to_drugs": {
+      "name": "Neuropathy Due To Drugs",
+      "description": "Nerve damage caused by medication",
+      "severity": "moderate"
+    },
+    "croup": {
+      "name": "Croup",
+      "description": "Viral infection of the upper airway in children causing a barking cough",
+      "severity": "moderate"
+    },
+    "idiopathic_excessive_menstruation": {
+      "name": "Idiopathic Excessive Menstruation",
+      "description": "Heavy menstrual bleeding without known cause",
+      "severity": "moderate"
+    },
+    "amblyopia": {
+      "name": "Amblyopia",
+      "description": "Lazy eye",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_wrist": {
+      "name": "Dislocation Of The Wrist",
+      "description": "Wrist joint displacement",
+      "severity": "moderate"
+    },
+    "ear_drum_damage": {
+      "name": "Ear Drum Damage",
+      "description": "Perforation or injury to eardrum",
+      "severity": "moderate"
+    },
+    "erectile_dysfunction": {
+      "name": "Erectile Dysfunction",
+      "description": "Inability to achieve or maintain erection",
+      "severity": "moderate"
+    },
+    "temporary_or_benign_blood_in_urine": {
+      "name": "Temporary Or Benign Blood In Urine",
+      "description": "Blood in urine from non-serious cause",
+      "severity": "mild"
+    },
+    "kidney_disease_due_to_longstanding_hypertension": {
+      "name": "Kidney Disease Due To Longstanding Hypertension",
+      "description": "Kidney damage from chronic high blood pressure",
+      "severity": "moderate"
+    },
+    "chondromalacia_of_the_patella": {
+      "name": "Chondromalacia Of The Patella",
+      "description": "Softening of cartilage under the kneecap",
+      "severity": "moderate"
+    },
+    "onychomycosis": {
+      "name": "Onychomycosis",
+      "description": "Fungal nail infection",
+      "severity": "moderate"
+    },
+    "urethral_disorder": {
+      "name": "Urethral Disorder",
+      "description": "Conditions affecting the urethra",
+      "severity": "moderate"
+    },
+    "lyme_disease": {
+      "name": "Lyme Disease",
+      "description": "Bacterial infection transmitted by tick bites",
+      "severity": "moderate"
+    },
+    "iron_deficiency_anemia": {
+      "name": "Iron Deficiency Anemia",
+      "description": "Anemia from insufficient iron",
+      "severity": "moderate"
+    },
+    "acute_respiratory_distress_syndrome": {
+      "name": "Acute Respiratory Distress Syndrome (Ards)",
+      "description": "Severe lung condition causing fluid buildup in air sacs and respiratory failure",
+      "severity": "moderate"
+    },
+    "toxic_multinodular_goiter": {
+      "name": "Toxic Multinodular Goiter",
+      "description": "Enlarged thyroid with multiple nodules producing excess hormone",
+      "severity": "severe"
+    },
+    "autonomic_nervous_system_disorder": {
+      "name": "Autonomic Nervous System Disorder",
+      "description": "Dysfunction of the nervous system controlling automatic body processes",
+      "severity": "moderate"
+    },
+    "psychosexual_disorder": {
+      "name": "Psychosexual Disorder",
+      "description": "Mental health affecting sexual function",
+      "severity": "moderate"
+    },
+    "anemia": {
+      "name": "Anemia",
+      "description": "Low red blood cell count",
+      "severity": "moderate"
+    },
+    "tendinitis": {
+      "name": "Tendinitis",
+      "description": "Inflammation of a tendon",
+      "severity": "moderate"
+    },
+    "common_cold": {
+      "name": "Common Cold",
+      "description": "Viral infection of upper respiratory tract",
+      "severity": "mild"
+    },
+    "amyotrophic_lateral_sclerosis": {
+      "name": "Amyotrophic Lateral Sclerosis (Als)",
+      "description": "Progressive neurodegenerative disease affecting nerve cells in brain and spinal cord",
+      "severity": "severe"
+    },
+    "central_retinal_artery_or_vein_occlusion": {
+      "name": "Central Retinal Artery Or Vein Occlusion",
+      "description": "Blockage of blood vessel in the retina",
+      "severity": "moderate"
+    },
+    "paroxysmal_supraventricular_tachycardia": {
+      "name": "Paroxysmal Supraventricular Tachycardia",
+      "description": "Episodes of abnormally fast heart rate originating above the ventricles",
+      "severity": "moderate"
+    },
+    "venous_insufficiency": {
+      "name": "Venous Insufficiency",
+      "description": "Poor blood return from legs",
+      "severity": "moderate"
+    },
+    "trichomonas_infection": {
+      "name": "Trichomonas Infection",
+      "description": "Sexually transmitted parasitic infection",
+      "severity": "moderate"
+    },
+    "acne": {
+      "name": "Acne",
+      "description": "Skin condition with pimples from clogged pores",
+      "severity": "mild"
+    },
+    "depression": {
+      "name": "Depression",
+      "description": "Mental health disorder causing persistent feelings of sadness, hopelessness, and loss of interest in activities",
+      "severity": "moderate"
+    },
+    "urinary_tract_obstruction": {
+      "name": "Urinary Tract Obstruction",
+      "description": "Blockage in urinary system",
+      "severity": "moderate"
+    },
+    "diabetes_insipidus": {
+      "name": "Diabetes Insipidus",
+      "description": "Condition causing excessive thirst and urination from hormone imbalance",
+      "severity": "moderate"
+    },
+    "iridocyclitis": {
+      "name": "Iridocyclitis",
+      "description": "Inflammation of iris and ciliary body",
+      "severity": "moderate"
+    },
+    "varicocele_of_the_testicles": {
+      "name": "Varicocele Of The Testicles",
+      "description": "Enlarged veins in scrotum",
+      "severity": "moderate"
+    },
+    "irritable_bowel_syndrome": {
+      "name": "Irritable Bowel Syndrome",
+      "description": "Chronic disorder affecting the large intestine causing cramping and changes in bowel habits",
+      "severity": "moderate"
+    },
+    "fracture_of_the_foot": {
+      "name": "Fracture Of The Foot",
+      "description": "Broken bone in the foot",
+      "severity": "moderate"
+    },
+    "ovarian_cyst": {
+      "name": "Ovarian Cyst",
+      "description": "Fluid-filled sac on the ovary",
+      "severity": "moderate"
+    },
+    "chlamydia": {
+      "name": "Chlamydia",
+      "description": "Common sexually transmitted bacterial infection",
+      "severity": "moderate"
+    },
+    "parasitic_disease": {
+      "name": "Parasitic Disease",
+      "description": "Infection caused by parasites",
+      "severity": "moderate"
+    },
+    "fracture_of_the_jaw": {
+      "name": "Fracture Of The Jaw",
+      "description": "Broken jawbone",
+      "severity": "moderate"
+    },
+    "lipoma": {
+      "name": "Lipoma",
+      "description": "Benign fatty tissue tumor under skin",
+      "severity": "moderate"
+    },
+    "female_genitalia_infection": {
+      "name": "Female Genitalia Infection",
+      "description": "Infection of female reproductive organs",
+      "severity": "moderate"
+    },
+    "pulmonary_hypertension": {
+      "name": "Pulmonary Hypertension",
+      "description": "Medical condition affecting the pulmonary hypertension",
+      "severity": "moderate"
+    },
+    "thyroid_nodule": {
+      "name": "Thyroid Nodule",
+      "description": "Lump in the thyroid gland",
+      "severity": "moderate"
+    },
+    "broken_tooth": {
+      "name": "Broken Tooth",
+      "description": "Fractured or chipped tooth",
+      "severity": "moderate"
+    },
+    "lymphadenitis": {
+      "name": "Lymphadenitis",
+      "description": "Inflammatory condition causing swelling, pain, and tissue irritation",
+      "severity": "moderate"
+    },
+    "injury_to_the_face": {
+      "name": "Injury To The Face",
+      "description": "Trauma to facial structures",
+      "severity": "moderate"
+    },
+    "aortic_valve_disease": {
+      "name": "Aortic Valve Disease",
+      "description": "Malfunction of the valve between the heart and the main artery",
+      "severity": "severe"
+    },
+    "rheumatoid_arthritis": {
+      "name": "Rheumatoid Arthritis",
+      "description": "Autoimmune joint inflammation",
+      "severity": "moderate"
+    },
+    "spermatocele": {
+      "name": "Spermatocele",
+      "description": "Benign cyst near testicle",
+      "severity": "moderate"
+    },
+    "impetigo": {
+      "name": "Impetigo",
+      "description": "Contagious bacterial skin infection",
+      "severity": "moderate"
+    },
+    "anal_fistula": {
+      "name": "Anal Fistula",
+      "description": "Abnormal tunnel connecting the anal canal to the skin",
+      "severity": "moderate"
+    },
+    "hypothermia": {
+      "name": "Hypothermia",
+      "description": "Dangerously low body temperature",
+      "severity": "moderate"
+    },
+    "oppositional_disorder": {
+      "name": "Oppositional Disorder",
+      "description": "Behavioral disorder with defiant behavior",
+      "severity": "moderate"
+    },
+    "migraine": {
+      "name": "Migraine",
+      "description": "Severe recurring headache",
+      "severity": "moderate"
+    },
+    "diabetic_peripheral_neuropathy": {
+      "name": "Diabetic Peripheral Neuropathy",
+      "description": "Nerve damage in extremities caused by diabetes",
+      "severity": "moderate"
+    },
+    "testicular_disorder": {
+      "name": "Testicular Disorder",
+      "description": "Conditions affecting testicles",
+      "severity": "moderate"
+    },
+    "gestational_diabetes": {
+      "name": "Gestational Diabetes",
+      "description": "High blood sugar during pregnancy",
+      "severity": "moderate"
+    },
+    "hidradenitis_suppurativa": {
+      "name": "Hidradenitis Suppurativa",
+      "description": "Chronic skin condition with painful lumps",
+      "severity": "moderate"
+    },
+    "conjunctivitis_due_to_bacteria": {
+      "name": "Conjunctivitis Due To Bacteria",
+      "description": "Bacterial eye infection",
+      "severity": "moderate"
+    },
+    "lewy_body_dementia": {
+      "name": "Lewy Body Dementia",
+      "description": "Type of dementia associated with abnormal protein deposits in the brain",
+      "severity": "severe"
+    },
+    "multiple_myeloma": {
+      "name": "Multiple Myeloma",
+      "description": "Blood cancer affecting plasma cells",
+      "severity": "moderate"
+    },
+    "head_injury": {
+      "name": "Head Injury",
+      "description": "Trauma to the scalp, skull, or brain",
+      "severity": "moderate"
+    },
+    "ascending_cholangitis": {
+      "name": "Ascending Cholangitis",
+      "description": "Bacterial infection of the bile duct system",
+      "severity": "moderate"
+    },
+    "idiopathic_irregular_menstrual_cycle": {
+      "name": "Idiopathic Irregular Menstrual Cycle",
+      "description": "Irregular periods without known cause",
+      "severity": "moderate"
+    },
+    "interstitial_lung_disease": {
+      "name": "Interstitial Lung Disease",
+      "description": "Group of disorders causing progressive scarring of lung tissue",
+      "severity": "severe"
+    },
+    "mononeuritis": {
+      "name": "Mononeuritis",
+      "description": "Damage to a single peripheral nerve",
+      "severity": "moderate"
+    },
+    "malaria": {
+      "name": "Malaria",
+      "description": "Parasitic disease transmitted by mosquitoes",
+      "severity": "severe"
+    },
+    "somatization_disorder": {
+      "name": "Somatization Disorder",
+      "description": "Mental disorder characterized by multiple physical symptoms without identifiable physical cause",
+      "severity": "moderate"
+    },
+    "hypovolemia": {
+      "name": "Hypovolemia",
+      "description": "Decreased blood volume",
+      "severity": "moderate"
+    },
+    "schizophrenia": {
+      "name": "Schizophrenia",
+      "description": "Severe mental disorder affecting thinking, perception, emotions, and behavior",
+      "severity": "severe"
+    },
+    "knee_ligament_or_meniscus_tear": {
+      "name": "Knee Ligament Or Meniscus Tear",
+      "description": "Torn tissue in the knee",
+      "severity": "moderate"
+    },
+    "endocarditis": {
+      "name": "Endocarditis",
+      "description": "Infection of the inner lining of heart chambers and valves",
+      "severity": "moderate"
+    },
+    "sepsis": {
+      "name": "Sepsis",
+      "description": "Life-threatening response to infection affecting whole body",
+      "severity": "severe"
+    },
+    "cholecystitis": {
+      "name": "Cholecystitis",
+      "description": "Inflammation of the gallbladder",
+      "severity": "moderate"
+    },
+    "cardiac_arrest": {
+      "name": "Cardiac Arrest",
+      "description": "Sudden loss of heart function, breathing, and consciousness",
+      "severity": "severe"
+    },
+    "cardiomyopathy": {
+      "name": "Cardiomyopathy",
+      "description": "Disease of the heart muscle making it harder to pump blood",
+      "severity": "moderate"
+    },
+    "social_phobia": {
+      "name": "Social Phobia",
+      "description": "Intense anxiety or fear of social situations where one might be judged or embarrassed",
+      "severity": "moderate"
+    },
+    "meningitis": {
+      "name": "Meningitis",
+      "description": "Inflammation of membranes surrounding brain and spinal cord",
+      "severity": "severe"
+    },
+    "hormone_disorder": {
+      "name": "Hormone Disorder",
+      "description": "Conditions affecting hormone production or function",
+      "severity": "moderate"
+    },
+    "raynaud_disease": {
+      "name": "Raynaud Disease",
+      "description": "Reduced blood flow to fingers and toes in cold",
+      "severity": "moderate"
+    },
+    "reactive_arthritis": {
+      "name": "Reactive Arthritis",
+      "description": "Joint inflammation triggered by infection elsewhere in body",
+      "severity": "moderate"
+    },
+    "scabies": {
+      "name": "Scabies",
+      "description": "Contagious skin infestation by mites",
+      "severity": "moderate"
+    },
+    "ear_wax_impaction": {
+      "name": "Ear Wax Impaction",
+      "description": "Blocked ear canal from earwax",
+      "severity": "moderate"
+    },
+    "hypertension_of_pregnancy": {
+      "name": "Hypertension Of Pregnancy",
+      "description": "High blood pressure during pregnancy",
+      "severity": "moderate"
+    },
+    "peripheral_arterial_embolism": {
+      "name": "Peripheral Arterial Embolism",
+      "description": "Blood clot blocking an artery in an extremity",
+      "severity": "severe"
+    },
+    "rosacea": {
+      "name": "Rosacea",
+      "description": "Chronic skin condition with facial redness",
+      "severity": "moderate"
+    },
+    "fracture_of_the_skull": {
+      "name": "Fracture Of The Skull",
+      "description": "Broken skull bone",
+      "severity": "moderate"
+    },
+    "uveitis": {
+      "name": "Uveitis",
+      "description": "Inflammation of middle eye layer",
+      "severity": "moderate"
+    },
+    "fracture_of_the_facial_bones": {
+      "name": "Fracture Of The Facial Bones",
+      "description": "Broken bone in the face",
+      "severity": "moderate"
+    },
+    "tracheitis": {
+      "name": "Tracheitis",
+      "description": "Trachea inflammation",
+      "severity": "moderate"
+    },
+    "jaw_disorder": {
+      "name": "Jaw Disorder",
+      "description": "Conditions affecting the jaw",
+      "severity": "moderate"
+    },
+    "perirectal_infection": {
+      "name": "Perirectal Infection",
+      "description": "Infection in the tissue around the rectum",
+      "severity": "moderate"
+    },
+    "breast_cyst": {
+      "name": "Breast Cyst",
+      "description": "Fluid-filled sac in breast",
+      "severity": "moderate"
+    },
+    "posttraumatic_stress_disorder": {
+      "name": "Post-Traumatic Stress Disorder (Ptsd)",
+      "description": "Mental health condition triggered by experiencing or witnessing a terrifying event",
+      "severity": "moderate"
+    },
+    "kidney_cancer": {
+      "name": "Kidney Cancer",
+      "description": "Malignant tumor in the kidney",
+      "severity": "severe"
+    },
+    "blepharitis": {
+      "name": "Blepharitis",
+      "description": "Eyelid inflammation",
+      "severity": "moderate"
+    },
+    "celiac_disease": {
+      "name": "Celiac Disease",
+      "description": "Immune reaction to eating gluten causing small intestine damage",
+      "severity": "moderate"
+    },
+    "cystitis": {
+      "name": "Cystitis",
+      "description": "Inflammation of the bladder",
+      "severity": "moderate"
+    },
+    "sickle_cell_anemia": {
+      "name": "Sickle Cell Anemia",
+      "description": "Genetic blood disorder with abnormal red blood cells",
+      "severity": "moderate"
+    },
+    "subconjunctival_hemorrhage": {
+      "name": "Subconjunctival Hemorrhage",
+      "description": "Broken blood vessel on eye surface",
+      "severity": "severe"
+    },
+    "hemorrhoids": {
+      "name": "Hemorrhoids",
+      "description": "Swollen veins in the lower rectum or anus",
+      "severity": "moderate"
+    },
+    "contact_dermatitis": {
+      "name": "Contact Dermatitis",
+      "description": "Skin inflammation from contact with irritant or allergen",
+      "severity": "moderate"
+    },
+    "sinus_bradycardia": {
+      "name": "Sinus Bradycardia",
+      "description": "Slower than normal heart rate",
+      "severity": "moderate"
+    },
+    "pelvic_inflammatory_disease": {
+      "name": "Pelvic Inflammatory Disease",
+      "description": "Infection of female reproductive organs",
+      "severity": "moderate"
+    },
+    "liver_disease": {
+      "name": "Liver Disease",
+      "description": "Any condition that damages the liver and affects its function",
+      "severity": "moderate"
+    },
+    "chronic_constipation": {
+      "name": "Chronic Constipation",
+      "description": "Medical condition affecting the chronic constipation",
+      "severity": "moderate"
+    },
+    "flu": {
+      "name": "Flu",
+      "description": "Influenza viral infection affecting respiratory system",
+      "severity": "moderate"
+    },
+    "tic_disorder": {
+      "name": "Tic (Movement) Disorder",
+      "description": "Conditions involving sudden, repetitive movements or sounds",
+      "severity": "moderate"
+    },
+    "skin_polyp": {
+      "name": "Skin Polyp",
+      "description": "Benign skin growth",
+      "severity": "moderate"
+    },
+    "brachial_neuritis": {
+      "name": "Brachial Neuritis",
+      "description": "Sudden onset of shoulder and arm pain from nerve inflammation",
+      "severity": "moderate"
+    },
+    "cervical_cancer": {
+      "name": "Cervical Cancer",
+      "description": "Malignant tumor in the cervix",
+      "severity": "severe"
+    },
+    "adrenal_adenoma": {
+      "name": "Adrenal Adenoma",
+      "description": "Benign tumor of the adrenal gland",
+      "severity": "moderate"
+    },
+    "esophagitis": {
+      "name": "Esophagitis",
+      "description": "Inflammation of the esophagus",
+      "severity": "moderate"
+    },
+    "yeast_infection": {
+      "name": "Yeast Infection",
+      "description": "Fungal infection of the vagina",
+      "severity": "mild"
+    },
+    "spina_bifida": {
+      "name": "Spina Bifida",
+      "description": "Congenital spinal defect",
+      "severity": "moderate"
+    },
+    "drug_poisoning_due_to_medication": {
+      "name": "Drug Poisoning Due To Medication",
+      "description": "Medication overdose",
+      "severity": "severe"
+    },
+    "alcoholic_liver_disease": {
+      "name": "Alcoholic Liver Disease",
+      "description": "Liver damage from excessive alcohol consumption",
+      "severity": "moderate"
+    },
+    "malignant_hypertension": {
+      "name": "Malignant Hypertension",
+      "description": "Medical condition affecting the malignant hypertension",
+      "severity": "severe"
+    },
+    "diverticulitis": {
+      "name": "Diverticulitis",
+      "description": "Inflammation or infection of diverticula in the colon",
+      "severity": "moderate"
+    },
+    "moyamoya_disease": {
+      "name": "Moyamoya Disease",
+      "description": "Rare blood vessel disorder affecting arteries in the brain",
+      "severity": "moderate"
+    },
+    "heat_exhaustion": {
+      "name": "Heat Exhaustion",
+      "description": "Heat-related illness from excessive heat",
+      "severity": "moderate"
+    },
+    "psychotic_disorder": {
+      "name": "Psychotic Disorder",
+      "description": "Mental health conditions causing loss of contact with reality, including delusions and hallucinations",
+      "severity": "severe"
+    },
+    "frostbite": {
+      "name": "Frostbite",
+      "description": "Tissue damage from freezing cold",
+      "severity": "moderate"
+    },
+    "atrophy_of_the_corpus_cavernosum": {
+      "name": "Atrophy Of The Corpus Cavernosum",
+      "description": "Shrinkage of erectile tissue",
+      "severity": "moderate"
+    },
+    "smoking_or_tobacco_addiction": {
+      "name": "Smoking Or Tobacco Addiction",
+      "description": "Dependence on tobacco products",
+      "severity": "moderate"
+    },
+    "sprain_or_strain": {
+      "name": "Sprain Or Strain",
+      "description": "Injury to ligament or muscle from overstretching",
+      "severity": "moderate"
+    },
+    "essential_tremor": {
+      "name": "Essential Tremor",
+      "description": "Neurological disorder causing involuntary rhythmic shaking",
+      "severity": "severe"
+    },
+    "open_wound_of_the_ear": {
+      "name": "Open Wound Of The Ear",
+      "description": "Ear laceration",
+      "severity": "moderate"
+    },
+    "idiopathic_painful_menstruation": {
+      "name": "Idiopathic Painful Menstruation",
+      "description": "Menstrual cramps without identifiable cause",
+      "severity": "moderate"
+    },
+    "down_syndrome": {
+      "name": "Down Syndrome",
+      "description": "Genetic disorder from extra chromosome 21",
+      "severity": "moderate"
+    },
+    "idiopathic_infrequent_menstruation": {
+      "name": "Idiopathic Infrequent Menstruation",
+      "description": "Infrequent periods without known cause",
+      "severity": "moderate"
+    },
+    "pneumothorax": {
+      "name": "Pneumothorax",
+      "description": "Collapsed lung caused by air leaking into the space between lung and chest wall",
+      "severity": "moderate"
+    },
+    "de_quervain_disease": {
+      "name": "De Quervain Disease",
+      "description": "Inflammation of tendons on thumb side of wrist",
+      "severity": "moderate"
+    },
+    "fracture_of_the_vertebra": {
+      "name": "Fracture Of The Vertebra",
+      "description": "Broken bone in the spine",
+      "severity": "moderate"
+    },
+    "mumps": {
+      "name": "Mumps",
+      "description": "Viral infection causing swelling of salivary glands",
+      "severity": "moderate"
+    },
+    "subarachnoid_hemorrhage": {
+      "name": "Subarachnoid Hemorrhage",
+      "description": "Bleeding in the space between the brain and surrounding membrane",
+      "severity": "severe"
+    },
+    "ectropion": {
+      "name": "Ectropion",
+      "description": "Outward turning of eyelid",
+      "severity": "moderate"
+    },
+    "scar": {
+      "name": "Scar",
+      "description": "Fibrous tissue replacing normal skin after injury",
+      "severity": "mild"
+    },
+    "lactose_intolerance": {
+      "name": "Lactose Intolerance",
+      "description": "Inability to digest dairy sugar",
+      "severity": "moderate"
+    },
+    "eustachian_tube_dysfunction": {
+      "name": "Eustachian Tube Dysfunction (Ear Disorder)",
+      "description": "Blocked ear tube",
+      "severity": "moderate"
+    },
+    "appendicitis": {
+      "name": "Appendicitis",
+      "description": "Inflammation of the appendix requiring emergency surgery",
+      "severity": "moderate"
+    },
+    "graves_disease": {
+      "name": "Graves Disease",
+      "description": "Autoimmune disorder causing overactive thyroid",
+      "severity": "moderate"
+    },
+    "dissociative_disorder": {
+      "name": "Dissociative Disorder",
+      "description": "Mental health conditions involving disconnection between thoughts, memories, surroundings, actions, and identity",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_vertebra": {
+      "name": "Dislocation Of The Vertebra",
+      "description": "Spinal bone displacement",
+      "severity": "moderate"
+    },
+    "phimosis": {
+      "name": "Phimosis",
+      "description": "Tight foreskin that cannot retract",
+      "severity": "moderate"
+    },
+    "hyperemesis_gravidarum": {
+      "name": "Hyperemesis Gravidarum",
+      "description": "Severe nausea and vomiting during pregnancy",
+      "severity": "moderate"
+    },
+    "pregnancy": {
+      "name": "Pregnancy",
+      "description": "State of carrying a developing fetus",
+      "severity": "moderate"
+    },
+    "epidural_hemorrhage": {
+      "name": "Epidural Hemorrhage",
+      "description": "Bleeding between the skull and outer brain covering",
+      "severity": "severe"
+    },
+    "septic_arthritis": {
+      "name": "Septic Arthritis",
+      "description": "Joint infection",
+      "severity": "severe"
+    },
+    "athletes_foot": {
+      "name": "Athlete'S Foot",
+      "description": "Fungal infection of the foot",
+      "severity": "moderate"
+    },
+    "pleural_effusion": {
+      "name": "Pleural Effusion",
+      "description": "Accumulation of excess fluid between layers of tissue lining the lungs",
+      "severity": "moderate"
+    },
+    "vulvar_disorder": {
+      "name": "Vulvar Disorder",
+      "description": "Conditions affecting external female genitalia",
+      "severity": "moderate"
+    },
+    "sialoadenitis": {
+      "name": "Sialoadenitis",
+      "description": "Salivary gland infection",
+      "severity": "moderate"
+    },
+    "gynecomastia": {
+      "name": "Gynecomastia",
+      "description": "Enlarged breast tissue in males",
+      "severity": "severe"
+    },
+    "urinary_tract_infection": {
+      "name": "Urinary Tract Infection",
+      "description": "Bacterial infection of the urinary system",
+      "severity": "moderate"
+    },
+    "erythema_multiforme": {
+      "name": "Erythema Multiforme",
+      "description": "Skin reaction with target-shaped lesions",
+      "severity": "moderate"
+    },
+    "scoliosis": {
+      "name": "Scoliosis",
+      "description": "Abnormal sideways curvature of the spine",
+      "severity": "moderate"
+    },
+    "bunion": {
+      "name": "Bunion",
+      "description": "Bony bump at base of big toe",
+      "severity": "moderate"
+    },
+    "arrhythmia": {
+      "name": "Arrhythmia",
+      "description": "Irregular heartbeat either too fast, too slow, or irregular",
+      "severity": "moderate"
+    },
+    "trigeminal_neuralgia": {
+      "name": "Trigeminal Neuralgia",
+      "description": "Chronic pain condition affecting the trigeminal nerve in the face",
+      "severity": "moderate"
+    },
+    "ankylosing_spondylitis": {
+      "name": "Ankylosing Spondylitis",
+      "description": "Inflammatory arthritis affecting the spine",
+      "severity": "moderate"
+    },
+    "peripheral_nerve_disorder": {
+      "name": "Peripheral Nerve Disorder",
+      "description": "Damage to nerves outside brain and spinal cord",
+      "severity": "moderate"
+    },
+    "sebaceous_cyst": {
+      "name": "Sebaceous Cyst",
+      "description": "Benign cyst filled with keratin",
+      "severity": "moderate"
+    },
+    "poisoning_due_to_antipsychotics": {
+      "name": "Poisoning Due To Antipsychotics",
+      "description": "Antipsychotic medication overdose",
+      "severity": "severe"
+    },
+    "neurosis": {
+      "name": "Neurosis",
+      "description": "Mental health condition involving chronic distress without delusions or hallucinations",
+      "severity": "moderate"
+    },
+    "prostate_cancer": {
+      "name": "Prostate Cancer",
+      "description": "Malignant tumor in the prostate",
+      "severity": "severe"
+    },
+    "cerebral_edema": {
+      "name": "Cerebral Edema",
+      "description": "Swelling of the brain",
+      "severity": "moderate"
+    },
+    "dislocation_of_the_finger": {
+      "name": "Dislocation Of The Finger",
+      "description": "Finger joint displacement",
+      "severity": "moderate"
+    },
+    "birth_trauma": {
+      "name": "Birth Trauma",
+      "description": "Injury to infant during delivery",
+      "severity": "moderate"
+    },
+    "chronic_pancreatitis": {
+      "name": "Chronic Pancreatitis",
+      "description": "Long-lasting inflammation of the pancreas",
+      "severity": "moderate"
+    },
+    "hematoma": {
+      "name": "Hematoma",
+      "description": "Collection of blood outside blood vessels",
+      "severity": "moderate"
+    },
+    "seborrheic_keratosis": {
+      "name": "Seborrheic Keratosis",
+      "description": "Benign skin growth",
+      "severity": "moderate"
+    },
+    "burn": {
+      "name": "Burn",
+      "description": "Tissue damage from heat, chemicals, or radiation",
+      "severity": "moderate"
+    },
+    "spontaneous_abortion": {
+      "name": "Spontaneous Abortion",
+      "description": "Natural loss of pregnancy before 20 weeks",
+      "severity": "moderate"
+    },
+    "genital_herpes": {
+      "name": "Genital Herpes",
+      "description": "Sexually transmitted viral infection causing genital sores",
+      "severity": "moderate"
+    },
+    "adjustment_reaction": {
+      "name": "Adjustment Reaction",
+      "description": "Emotional or behavioral symptoms in response to a stressful life event",
+      "severity": "moderate"
+    },
+    "gallstone": {
+      "name": "Gallstone",
+      "description": "Hardened deposits in the gallbladder",
+      "severity": "moderate"
+    },
+    "multiple_sclerosis": {
+      "name": "Multiple Sclerosis",
+      "description": "Autoimmune disease where immune system attacks protective covering of nerves",
+      "severity": "severe"
+    },
+    "zenker_diverticulum": {
+      "name": "Zenker Diverticulum",
+      "description": "Pouch that forms in the throat making swallowing difficult",
+      "severity": "moderate"
+    },
+    "fracture_of_the_pelvis": {
+      "name": "Fracture Of The Pelvis",
+      "description": "Broken pelvic bone",
+      "severity": "moderate"
+    },
+    "pneumoconiosis": {
+      "name": "Pneumoconiosis",
+      "description": "Lung disease caused by inhaling various types of dust particles",
+      "severity": "moderate"
+    },
+    "ulcerative_colitis": {
+      "name": "Ulcerative Colitis",
+      "description": "Chronic inflammatory bowel disease causing inflammation and ulcers in the colon",
+      "severity": "moderate"
+    },
+    "male_genitalia_infection": {
+      "name": "Male Genitalia Infection",
+      "description": "Infection of male reproductive organs",
+      "severity": "moderate"
+    },
+    "hpv": {
+      "name": "Hpv",
+      "description": "Human papillomavirus causing warts and increasing cancer risk",
+      "severity": "moderate"
+    },
+    "angina": {
+      "name": "Angina",
+      "description": "Chest pain caused by reduced blood flow to the heart muscle",
+      "severity": "moderate"
+    },
+    "injury_to_the_spinal_cord": {
+      "name": "Injury To The Spinal Cord",
+      "description": "Damage to the spinal cord from trauma",
+      "severity": "moderate"
+    },
+    "nasal_polyp": {
+      "name": "Nasal Polyp",
+      "description": "Benign growth in nasal passages",
+      "severity": "moderate"
+    },
+    "lichen_simplex": {
+      "name": "Lichen Simplex",
+      "description": "Chronic itchy skin from scratching",
+      "severity": "moderate"
+    },
+    "trichiasis": {
+      "name": "Trichiasis",
+      "description": "Inward-growing eyelashes",
+      "severity": "moderate"
+    },
+    "acariasis": {
+      "name": "Acariasis",
+      "description": "Mite infestation",
+      "severity": "moderate"
+    },
+    "colorectal_cancer": {
+      "name": "Colorectal Cancer",
+      "description": "Cancer of the colon or rectum",
+      "severity": "severe"
+    },
+    "skin_pigmentation_disorder": {
+      "name": "Skin Pigmentation Disorder",
+      "description": "Abnormal skin coloring",
+      "severity": "moderate"
+    },
+    "factitious_disorder": {
+      "name": "Factitious Disorder",
+      "description": "Mental disorder where a person acts as if they have a physical or mental illness when they are not sick",
+      "severity": "moderate"
+    },
+    "lymphogranuloma_venereum": {
+      "name": "Lymphogranuloma Venereum",
+      "description": "Sexually transmitted bacterial infection affecting lymph nodes",
+      "severity": "moderate"
+    },
+    "galactorrhea_of_unknown_cause": {
+      "name": "Galactorrhea Of Unknown Cause",
+      "description": "Breast milk production without known reason",
+      "severity": "moderate"
+    },
+    "nerve_impingement_near_the_shoulder": {
+      "name": "Nerve Impingement Near The Shoulder",
+      "description": "Compressed nerve in the shoulder region",
+      "severity": "moderate"
+    },
+    "toxoplasmosis": {
+      "name": "Toxoplasmosis",
+      "description": "Parasitic infection dangerous during pregnancy",
+      "severity": "moderate"
+    },
+    "fibroadenoma": {
+      "name": "Fibroadenoma",
+      "description": "Benign breast tumor",
+      "severity": "moderate"
+    },
+    "missed_abortion": {
+      "name": "Missed Abortion",
+      "description": "Pregnancy loss where fetus remains in uterus",
+      "severity": "moderate"
+    },
+    "diabetic_ketoacidosis": {
+      "name": "Diabetic Ketoacidosis",
+      "description": "Life-threatening diabetes complication with very high blood sugar",
+      "severity": "severe"
+    },
+    "granuloma_inguinale": {
+      "name": "Granuloma Inguinale",
+      "description": "Rare sexually transmitted bacterial infection",
+      "severity": "moderate"
+    },
+    "obsessive_compulsive_disorder": {
+      "name": "Obsessive Compulsive Disorder (Ocd)",
+      "description": "Anxiety disorder characterized by intrusive thoughts (obsessions) and repetitive behaviors (compulsions)",
+      "severity": "moderate"
+    },
+    "injury_of_the_ankle": {
+      "name": "Injury Of The Ankle",
+      "description": "Trauma to the ankle",
+      "severity": "moderate"
+    },
+    "hyponatremia": {
+      "name": "Hyponatremia",
+      "description": "Low sodium levels in blood",
+      "severity": "moderate"
+    },
+    "stricture_of_the_esophagus": {
+      "name": "Stricture Of The Esophagus",
+      "description": "Abnormal narrowing of the esophagus",
+      "severity": "moderate"
+    },
+    "fracture_of_the_ankle": {
+      "name": "Fracture Of The Ankle",
+      "description": "Broken ankle bone",
+      "severity": "moderate"
+    },
+    "soft_tissue_sarcoma": {
+      "name": "Soft Tissue Sarcoma",
+      "description": "Cancer of connective tissues",
+      "severity": "severe"
+    },
+    "bone_disorder": {
+      "name": "Bone Disorder",
+      "description": "Various conditions affecting bone health",
+      "severity": "moderate"
+    },
+    "epilepsy": {
+      "name": "Epilepsy",
+      "description": "Neurological disorder causing recurrent seizures",
+      "severity": "moderate"
+    },
+    "personality_disorder": {
+      "name": "Personality Disorder",
+      "description": "Mental health conditions with long-term patterns of thoughts and behaviors that differ from societal expectations",
+      "severity": "moderate"
+    },
+    "shingles": {
+      "name": "Shingles (Herpes Zoster)",
+      "description": "Viral infection causing painful rash from reactivated chickenpox virus",
+      "severity": "moderate"
+    },
+    "tourette_syndrome": {
+      "name": "Tourette Syndrome",
+      "description": "Neurological disorder characterized by involuntary movements and vocalizations",
+      "severity": "moderate"
+    },
+    "avascular_necrosis": {
+      "name": "Avascular Necrosis",
+      "description": "Death of bone tissue from lack of blood supply",
+      "severity": "moderate"
+    },
+    "strep_throat": {
+      "name": "Strep Throat",
+      "description": "Bacterial throat infection",
+      "severity": "moderate"
+    },
+    "osteomyelitis": {
+      "name": "Osteomyelitis",
+      "description": "Bone infection",
+      "severity": "moderate"
+    },
+    "sjogren_syndrome": {
+      "name": "Sjogren Syndrome",
+      "description": "Autoimmune disease causing dry eyes and mouth",
+      "severity": "moderate"
+    },
+    "adhesive_capsulitis_of_the_shoulder": {
+      "name": "Adhesive Capsulitis Of The Shoulder",
+      "description": "Frozen shoulder with pain and stiffness",
+      "severity": "moderate"
+    },
+    "viral_hepatitis": {
+      "name": "Viral Hepatitis",
+      "description": "Liver inflammation caused by viral infection",
+      "severity": "moderate"
+    },
+    "tonsillar_hypertrophy": {
+      "name": "Tonsillar Hypertrophy",
+      "description": "Enlarged tonsils",
+      "severity": "moderate"
+    },
+    "gastritis": {
+      "name": "Gastritis",
+      "description": "Inflammation of the stomach lining",
+      "severity": "moderate"
+    },
+    "skin_cancer": {
+      "name": "Skin Cancer",
+      "description": "Malignant growth of skin cells",
+      "severity": "severe"
+    },
+    "aphthous_ulcer": {
+      "name": "Aphthous Ulcer",
+      "description": "Painful mouth sore",
+      "severity": "moderate"
+    },
+    "tonsillitis": {
+      "name": "Tonsillitis",
+      "description": "Tonsil inflammation",
+      "severity": "moderate"
+    },
+    "intestinal_cancer": {
+      "name": "Intestinal Cancer",
+      "description": "Malignant tumor in the intestines",
+      "severity": "severe"
+    },
+    "stomach_cancer": {
+      "name": "Stomach Cancer",
+      "description": "Malignant tumor in the stomach",
+      "severity": "severe"
+    },
+    "developmental_disability": {
+      "name": "Developmental Disability",
+      "description": "Cognitive or physical impairments from childhood",
+      "severity": "moderate"
+    },
+    "acute_stress_reaction": {
+      "name": "Acute Stress Reaction",
+      "description": "Short-term psychological response to a traumatic or stressful event",
+      "severity": "moderate"
+    },
+    "delirium": {
+      "name": "Delirium",
+      "description": "Sudden severe confusion and rapid changes in brain function",
+      "severity": "moderate"
+    },
+    "callus": {
+      "name": "Callus",
+      "description": "Thickened skin from friction or pressure",
+      "severity": "mild"
+    },
+    "guillain_barre_syndrome": {
+      "name": "Guillain Barre Syndrome",
+      "description": "Rare disorder where immune system attacks peripheral nerves",
+      "severity": "severe"
+    },
+    "lumbago": {
+      "name": "Lumbago",
+      "description": "Lower back pain",
+      "severity": "moderate"
+    },
+    "deviated_nasal_septum": {
+      "name": "Deviated Nasal Septum",
+      "description": "Crooked nasal divider",
+      "severity": "moderate"
+    },
+    "hemangioma": {
+      "name": "Hemangioma",
+      "description": "Benign blood vessel growth",
+      "severity": "moderate"
+    },
+    "peripheral_arterial_disease": {
+      "name": "Peripheral Arterial Disease",
+      "description": "Narrowed arteries reducing blood flow to the limbs",
+      "severity": "moderate"
+    },
+    "chronic_back_pain": {
+      "name": "Chronic Back Pain",
+      "description": "Persistent pain in the back lasting more than 3 months",
+      "severity": "moderate"
+    },
+    "heart_failure": {
+      "name": "Heart Failure",
+      "description": "Condition where the heart cannot pump blood effectively to meet the body's needs",
+      "severity": "severe"
+    },
+    "conjunctivitis": {
+      "name": "Conjunctivitis",
+      "description": "Eye inflammation causing redness",
+      "severity": "moderate"
+    },
+    "herniated_disk": {
+      "name": "Herniated Disk",
+      "description": "Spinal disc pushing through damaged outer ring",
+      "severity": "moderate"
+    },
+    "rhabdomyolysis": {
+      "name": "Rhabdomyolysis",
+      "description": "Breakdown of muscle tissue releasing harmful proteins into blood",
+      "severity": "moderate"
+    },
+    "breast_infection": {
+      "name": "Breast Infection (Mastitis)",
+      "description": "Infection of breast tissue",
+      "severity": "moderate"
+    },
+    "abdominal_aortic_aneurysm": {
+      "name": "Abdominal Aortic Aneurysm",
+      "description": "Enlarged area in the lower part of the aorta",
+      "severity": "severe"
+    },
+    "pulmonary_embolism": {
+      "name": "Pulmonary Embolism",
+      "description": "Medical condition affecting the pulmonary embolism",
+      "severity": "severe"
+    },
+    "conduct_disorder": {
+      "name": "Conduct Disorder",
+      "description": "Childhood behavioral disorder",
+      "severity": "moderate"
+    },
+    "mastectomy": {
+      "name": "Mastectomy",
+      "description": "Surgical removal of breast",
+      "severity": "moderate"
+    },
+    "epididymitis": {
+      "name": "Epididymitis",
+      "description": "Inflammation of tube behind testicle",
+      "severity": "moderate"
+    },
+    "molluscum_contagiosum": {
+      "name": "Molluscum Contagiosum",
+      "description": "Viral skin infection with small bumps",
+      "severity": "moderate"
+    },
+    "benign_vaginal_discharge": {
+      "name": "Benign Vaginal Discharge (Leukorrhea)",
+      "description": "Normal vaginal discharge",
+      "severity": "mild"
+    },
+    "bladder_obstruction": {
+      "name": "Bladder Obstruction",
+      "description": "Blockage preventing urine flow from bladder",
+      "severity": "moderate"
+    },
+    "melanoma": {
+      "name": "Melanoma",
+      "description": "Serious type of skin cancer",
+      "severity": "moderate"
+    },
+    "cervical_disorder": {
+      "name": "Cervical Disorder",
+      "description": "Conditions affecting the cervix",
+      "severity": "moderate"
+    },
+    "laryngitis": {
+      "name": "Laryngitis",
+      "description": "Voice box inflammation",
+      "severity": "moderate"
+    },
+    "dyshidrosis": {
+      "name": "Dyshidrosis",
+      "description": "Condition with itchy blisters on hands and feet",
+      "severity": "moderate"
+    },
+    "diaper_rash": {
+      "name": "Diaper Rash",
+      "description": "Skin irritation in diaper area",
+      "severity": "mild"
+    },
+    "gastroduodenal_ulcer": {
+      "name": "Gastroduodenal Ulcer",
+      "description": "Sore in the stomach or first part of the small intestine",
+      "severity": "moderate"
+    },
+    "inguinal_hernia": {
+      "name": "Inguinal Hernia",
+      "description": "Tissue protrusion through groin",
+      "severity": "moderate"
+    },
+    "eczema": {
+      "name": "Eczema",
+      "description": "Inflammatory skin condition with itchy, red patches",
+      "severity": "moderate"
+    },
+    "asperger_syndrome": {
+      "name": "Asperger Syndrome",
+      "description": "Developmental disorder affecting social interaction",
+      "severity": "moderate"
+    },
+    "mucositis": {
+      "name": "Mucositis",
+      "description": "Painful inflammation of mucous membranes",
+      "severity": "moderate"
+    },
+    "paronychia": {
+      "name": "Paronychia",
+      "description": "Nail fold infection",
+      "severity": "moderate"
+    },
+    "white_blood_cell_disease": {
+      "name": "White Blood Cell Disease",
+      "description": "Disorders affecting white blood cells",
+      "severity": "moderate"
+    },
+    "spondylolisthesis": {
+      "name": "Spondylolisthesis",
+      "description": "Vertebra slipping forward over the bone below",
+      "severity": "moderate"
+    },
+    "pseudotumor_cerebri": {
+      "name": "Pseudotumor Cerebri",
+      "description": "Increased pressure in the skull without a tumor",
+      "severity": "severe"
+    },
+    "conjunctivitis_due_to_virus": {
+      "name": "Conjunctivitis Due To Virus",
+      "description": "Viral eye infection",
+      "severity": "moderate"
+    },
+    "open_wound_of_the_nose": {
+      "name": "Open Wound Of The Nose",
+      "description": "Nasal laceration",
+      "severity": "moderate"
+    }
+  }
