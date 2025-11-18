@@ -1,9 +1,4 @@
-import numpy as np
-import pandas as pd
-import os
-import joblib
 from scipy.stats import randint, uniform
-# Removed duplicate imports
 from sklearn.model_selection import (
     GridSearchCV, 
     RandomizedSearchCV, 
@@ -18,7 +13,9 @@ def main() -> None:
     X, y = load_dataset(use_full_data=False)
 
     # Split into test and training
-    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size=0.20)
+    X_train, X_test, y_train, y_test = train_test_split(
+     X, y, test_size=0.2, random_state=42
+    )   
 
     print(f"Training set: {X_train.shape[0]} samples")
     print(f"Test set: {X_test.shape[0]} samples")
@@ -32,7 +29,8 @@ def main() -> None:
     )
     baseline_mean = baseline_scores.mean()
     baseline_std = baseline_scores.std()
-    print(f"Baseline accuracy: {baseline_mean:.4f} (+/- {baseline_std * 2:.4f})")
+    ci = baseline_std * 2  # Literally only here to prevent linting
+    print(f"Baseline accuracy: {baseline_mean:.4f} (+/- {ci:.4f})")
 
     # Grid for testing hyperparameters
     # Narrowed down to best params from original parameters after first tests
@@ -60,7 +58,8 @@ def main() -> None:
     print("GridSearchCV completed!")
     print(f"Best parameters: {grid_search.best_params_}")
     print(f"Best cross-validation accuracy: {grid_search.best_score_:.4f}")
-    print(f"Improvement over baseline: {grid_search.best_score_ - baseline_mean:.4f}")
+    improv = grid_search.best_score_ - baseline_mean
+    print(f"Improvement over baseline: {improv:.4f}")
 
     # Parameter distributions for RandomizedSearchCV
     # Narrowed down to best params from original parameters after first tests
@@ -91,7 +90,8 @@ def main() -> None:
     print("RandomizedSearchCV completed!")
     print(f"Best parameters: {random_search.best_params_}")
     print(f"Best cross-validation accuracy: {random_search.best_score_:.4f}")
-    print(f"Improvement over baseline: {random_search.best_score_ - baseline_mean:.4f}")
+    improv = random_search.best_score_ - baseline_mean
+    print(f"Improvement over baseline: {improv:.4f}")
 
     # Best results from all search methods
     print(f"Baseline accuracy:           {baseline_mean:.4f}")
