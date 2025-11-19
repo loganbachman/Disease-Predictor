@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import joblib
 import pandas as pd
 import streamlit as st
@@ -30,12 +31,14 @@ def load_model():
     return model, X_train
 
 # Process user's input to match the format that the model expects
-def process_user_input(user_data: dict) -> NDArray:
-    user_df = pd.DataFrame([user_data])
-    
+def process_user_input(user_data: list, column_names: list) -> pd.DataFrame:
+    user_df = pd.DataFrame([user_data], columns=column_names)
     return user_df
 
 def main() -> None:
+    with open("data/raw/description.json", "r") as file:
+        data_dict = json.load(file)
+    
     st.set_page_config(
         page_title="Illness Prediction",
         page_icon="🏥",
@@ -90,6 +93,38 @@ def main() -> None:
                 if name in X_train.columns:
                     idx = X_train.columns.get_loc(name)
                     symptom_list[idx] = 1
+        
+        user_data = process_user_input(symptom_list, X_train.columns)
+        prediction = model.predict_proba(user_data)[0]
+        top_3_symp_idx = prediction.argsort()[-3:][::-1]
+        
+        st.subheader("Top 3 Predicted Illnesses")
+        for i, idx in enumerate(top_3_symp_idx, 1):
+            disease = model.classes_[idx]
+            confidence = prediction[idx] * 100
+            disease_key = disease.lower().replace(' ', '_')
+            disease_info = data_dict[disease_key]
+            st.write(
+                f"""
+                {i}. **{disease_info['name']}** - {confidence:.1f}% Confidence\n
+                Info - {disease_info['description']}\n
+                Severity - {disease_info['severity']}
+                """
+            )
+            
+            
+        
+            
+        
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
                 
         
     
