@@ -1,3 +1,5 @@
+import os
+import joblib
 from scipy.stats import randint, uniform
 from sklearn.model_selection import (
     GridSearchCV, 
@@ -7,6 +9,7 @@ from sklearn.model_selection import (
 )
 from load_disease_data import load_dataset
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 
 
 def main() -> None:
@@ -14,11 +17,42 @@ def main() -> None:
 
     # Split into test and training
     X_train, X_test, y_train, y_test = train_test_split(
-     X, y, test_size=0.2, random_state=42
+     X, y, test_size=0.2, random_state=42, stratify=y
     )
 
     print(f"Training set: {X_train.shape[0]} samples")
     print(f"Test set: {X_test.shape[0]} samples")
+
+    # ------ Random Forest Model ----- #
+    baseline_model = RandomForestClassifier(
+        n_estimators=300,
+        random_state=42,
+        n_jobs=-1,
+        class_weight="balanced",
+    )
+
+    baseline_scores = cross_val_score(
+        baseline_model,
+        X_train,
+        y_train,
+        cv=4,
+        scoring="accuracy",
+        n_jobs=-1,
+    )
+    baseline_mean = baseline_scores.mean()
+    baseline_std = baseline_scores.std()
+    ci = baseline_std * 2
+    print(f"Baseline accuracy: {baseline_mean:.4f} (+/- {ci:.4f})")
+
+
+
+
+
+
+
+
+
+
 
     # Create logistic regression model (default params)
     baseline_model = LogisticRegression(random_state=42)
