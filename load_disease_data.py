@@ -1,10 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-from kaggle.api.kaggle_api_extended import KaggleApi #type: ignore
+from kaggle.api.kaggle_api_extended import KaggleApi  # type: ignore
 from sklearn.model_selection import train_test_split
 
 plt.style.use('ggplot')
+
 
 def load_dataset(data_path='data/raw', use_full_data=True):
     # Create path for data
@@ -51,9 +52,9 @@ def load_dataset(data_path='data/raw', use_full_data=True):
 
 def main():
     X, y = load_dataset(use_full_data=True)
-    
+
     diseases_counts = y.value_counts()
-    
+
     plt.figure(figsize=(14, 6))
     ax = diseases_counts.head(10).plot(
         kind="bar",
@@ -65,7 +66,7 @@ def main():
     plt.show()
     top_diseases = diseases_counts.head(25)
     print(top_diseases)
-    
+
 
 if __name__ == "__main__":
     main()
