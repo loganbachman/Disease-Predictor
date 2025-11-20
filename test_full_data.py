@@ -11,7 +11,7 @@ from sklearn.model_selection import (
     cross_val_score, 
     train_test_split
 )
-from exploratory_analysis import load_dataset
+from load_disease_data import load_dataset
 from sklearn.linear_model import LogisticRegression
 
 def main() -> None:

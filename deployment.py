@@ -3,7 +3,7 @@ import json
 import joblib
 import pandas as pd
 import streamlit as st
-from exploratory_analysis import load_dataset
+from load_disease_data import load_dataset
 from numpy.typing import NDArray
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -102,21 +102,20 @@ def main() -> None:
         for i, idx in enumerate(top_3_symp_idx, 1):
             disease = model.classes_[idx]
             confidence = prediction[idx] * 100
-            disease_key = disease.lower().replace(' ', '_')
+            # Convert to format for JSON
+            disease_key = disease.split('(')[0].strip()
+            disease_key = disease_key.lower().replace(' ', '_')
+            
+            # Access info through key
             disease_info = data_dict[disease_key]
+            # Display top 3 diseases to user
             st.write(
                 f"""
                 {i}. **{disease_info['name']}** - {confidence:.1f}% Confidence\n
-                Info - {disease_info['description']}\n
-                Severity - {disease_info['severity']}
+                **Info** - {disease_info['description']}\n
+                **Severity** - {disease_info['severity']}
                 """
             )
-            
-            
-        
-            
-        
-
 
 
 

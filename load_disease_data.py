@@ -63,6 +63,8 @@ def main():
     )
     ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha="center")
     plt.show()
+    top_diseases = diseases_counts.head(25)
+    print(top_diseases)
     
 
 if __name__ == "__main__":
