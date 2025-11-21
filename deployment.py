@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 
 def load_model():
     script_dir = Path(__file__).parent
-    model_path = script_dir / "models" / "best_logistic_regression.joblib"
+    model_path = script_dir / "models" / "best_random_forest.joblib"
 
     # Check if model is in path
     if not model_path.exists():
