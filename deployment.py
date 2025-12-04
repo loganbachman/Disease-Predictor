@@ -8,7 +8,7 @@ from numpy.typing import NDArray
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-
+@st.cache_resource(show_spinner=False)
 def load_model():
     script_dir = Path(__file__).parent
     model_path = script_dir / "models" / "best_random_forest.joblib"
@@ -44,47 +44,60 @@ def main() -> None:
         data_dict = json.load(file)
 
     st.set_page_config(
-        page_title="Illness Prediction",
-        page_icon="🏥",
-        layout="wide"
+        page_title="Medical Symptom Analyzer",
+        page_icon="🩺",
+        layout="centered",
+        initial_sidebar_state="collapsed"
     )
 
-    st.title("🏥 Patient Illness Predictor")
-    st.markdown(
-        """
-        This application will predict someone's likely illnesses based on their
-        reported symptoms. The model was trained on reported patient symptoms and
-        can predict what illness the patient is experiencing
-
-        Fill out the symptoms below and click predict to get a diagnosis!
-        """
+    st.title("🩺 Medical Symptom Analyzer")
+    st.caption("AI powered preliminary illness assessment based on reported symptoms")
+    st.info(
+    "⚕️ **Medical Disclaimer:** This tool is for informational purposes only and does not replace professional medical advice. "
+    "Please consult a healthcare professional for an accurate diagnosis and treatment."
     )
-
+    with st.expander("How to Use This Tool", expanded=False):
+        st.markdown(
+            """
+            1. **Select Symptoms**: Use the search box below to find and select your current symptoms
+            2. **Review Selection**: Verify you've selected all your relevant symptoms
+            3. **Get Results**: Click the analyze button to receive predictions
+            4. **Interpret Results**: Review the top 3 most likely conditions
+            """
+        )
+    
     model, X_train = load_model()
+    
     # Adjust symptom names for searchability
     all_symptoms = sorted([col.replace('_', " ").title() for col in X_train.columns])
 
-    # Form to collect user input
-    with st.form("symptom_form"):
-        st.header("Patient Symptoms")
+    # Multi select for all symptoms
+    selected_symptoms = st.multiselect(
+        "Select all symptoms you are experiencing:",
+        options=all_symptoms,
+        placeholder="Type to search symptoms (e.g., 'fever', 'cough', 'headache')",
+        help="You can select multiple symptoms, the more accurate your selection, the more accurate the prediction."
+    )
 
-        # Multi select for all symptoms
-        selected_symptoms = st.multiselect(
-            "Symptoms",
-            options=all_symptoms,
-            placeholder="Type to search symptoms (e.g., 'fever', 'cough', 'headache')",
-            help="Select all symptoms that you're experiencing"
+    # Show selected symptoms
+    if selected_symptoms:
+        st.success(f"✅ {len(selected_symptoms)} symptom(s) selected")
+        with st.expander("📋 View Selected Symptoms"):
+            for symptom in selected_symptoms:
+                st.write(f"• {symptom}")
+    
+    st.divider()
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        analyze_button = st.button(
+            "🔍 Analyze Symptoms",
+            use_container_width=True,
+            type="primary",
+            disabled=(len(selected_symptoms) == 0)
         )
 
-        # Submit button
-        submitted = st.form_submit_button(
-            "Predict your potential illnesses", use_container_width=True
-        )
-
-        if selected_symptoms:
-            st.info(f"✓ {len(selected_symptoms)} symptoms selected")
-
-    if submitted:
+    if analyze_button:
         if len(selected_symptoms) == 0:
             st.error("Select at least one symptom")
         else:
@@ -100,7 +113,10 @@ def main() -> None:
         user_data = process_user_input(symptom_list, X_train.columns)
         prediction = model.predict_proba(user_data)[0]
         top_3_symp_idx = prediction.argsort()[-3:][::-1]   
-        st.subheader("Top 3 Predicted Illnesses")
+        
+        st.divider()
+        st.subheader("Analysis Results")
+        st.subheader("Top 3 potential conditions")
         for i, idx in enumerate(top_3_symp_idx, 1):
             disease = model.classes_[idx]
             confidence = prediction[idx] * 100
@@ -111,14 +127,23 @@ def main() -> None:
             # Access info through key
             disease_info = data_dict[disease_key]
             # Display top 3 diseases to user
-            st.write(
-                f"""
-                {i}. **{disease_info['name']}** - {confidence:.1f}% Confidence\n
-                **Info** - {disease_info['description']}\n
-                **Severity** - {disease_info['severity']}
-                """
-            )
-
+            st.markdown(f"### {disease_info['name']}")
+            st.progress(confidence / 100)
+            st.caption(f"Confidence: {confidence:.1f}%")
+            st.markdown("**Description:**")
+            st.write(disease_info['description'])
+            st.markdown("**Severity Level:**")
+            severity = disease_info['severity']
+            # Display severity and guide user
+            if severity.lower() in ['high', 'severe', 'critical']:
+                st.error(f"🔴 {severity}")
+                st.caption("Seek immediate medical attention")
+            elif severity.lower() in ['medium', 'moderate']:
+                st.warning(f"🟡 {severity}")
+                st.caption("Consult a doctor soon")
+            else:
+                st.info(f"🟢 {severity}")
+                st.caption("Monitor symptoms")
 
 if __name__ == "__main__":
     main()

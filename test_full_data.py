@@ -12,16 +12,23 @@ from sklearn.model_selection import (
     train_test_split
 )
 from load_disease_data import load_dataset
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier as RandomForest
 
 
 def main() -> None:
     X, y = load_dataset(use_full_data=True)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_size=0.20)
-
-    model = LogisticRegression(random_state=42)
-
+    # Model with best parameters
+    model = RandomForest(
+        random_state = 42,
+        criterion = 'gini',
+        max_depth = None,
+        max_features = "log2",
+        min_samples_leaf = 2,
+        n_estimators = 100
+    )
+    
     scores = cross_val_score(
         model, X_train, y_train, cv=4, scoring="accuracy", n_jobs=-1
     )
@@ -38,7 +45,7 @@ def main() -> None:
     os.makedirs(model_dir, exist_ok=True)
 
     # Save model to directory using joblib
-    model_filename = os.path.join(model_dir, "best_logistic_regression.joblib")
+    model_filename = os.path.join(model_dir, "best_random_forest.joblib")
     joblib.dump(model, model_filename)
 
 
