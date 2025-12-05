@@ -3,10 +3,11 @@ import matplotlib.pyplot as plt
 import os
 from kaggle.api.kaggle_api_extended import KaggleApi  # type: ignore
 from sklearn.model_selection import train_test_split
+import streamlit as st
 
 plt.style.use('ggplot')
 
-
+@st.cache_data(show_spinner=False)
 def load_dataset(data_path='data/raw', use_full_data=True):
     # Create path for data
     os.makedirs(data_path, exist_ok=True)
