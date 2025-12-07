@@ -5,3 +5,6 @@ pandas
 numpy
 pathlib
 matplotlib
+kaggle
+os
+json
