@@ -23,7 +23,7 @@ def load_model():
     # Load our model in with joblib
     # model = joblib.load(model_path)
     # Load in our full dataset
-    X, y = load_dataset(use_full_data=True)
+    X, y = load_dataset(use_full_data=False)
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
