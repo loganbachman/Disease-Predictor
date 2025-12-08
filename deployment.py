@@ -6,38 +6,28 @@ import streamlit as st
 from load_disease_data import load_dataset
 from numpy.typing import NDArray
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier as RandomForest
+from sklearn.preprocessing import StandardScaler
 
 @st.cache_resource(show_spinner=False)
 def load_model():
-    # script_dir = Path(__file__).parent
-    # model_path = script_dir / "models" / "best_random_forest.joblib"
+    script_dir = Path(__file__).parent
+    model_path = script_dir / "models" / "best_random_forest.joblib"
 
     # Check if model is in path
-    # if not model_path.exists():
-    #     st.error(
-    #         f"Model file not found at {model_path}"
-    #     )
-    #     st.stop()
+    if not model_path.exists():
+        st.error(
+            f"Model file not found at {model_path}"
+        )
+        st.stop()
 
     # Load our model in with joblib
-    # model = joblib.load(model_path)
+    model = joblib.load(model_path)
     # Load in our full dataset
-    X, y = load_dataset(use_full_data=False)
+    X, y = load_dataset(use_full_data=True)
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
     )
-    
-    model = RandomForest(
-        random_state = 42,
-        criterion = 'gini',
-        max_depth = None,
-        max_features = "log2",
-        min_samples_leaf = 2,
-        n_estimators = 100
-    )
-    model.fit(X_train, y_train)
 
     return model, X_train
 
